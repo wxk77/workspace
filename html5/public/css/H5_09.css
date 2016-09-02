@@ -1,0 +1,167 @@
+/* CSS Document */
+
+	html,body{
+		max-width:640px;
+		width:640px;
+	  	margin: 0 auto;
+		height:100%;
+		}
+	section{
+	  overflow:hidden;
+	  width:100%;
+	  box-sizing:border-box;
+	  position:relative;
+	  }
+	header{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		position:relative;
+		}
+	.Hknow9{
+		position:absolute;
+		left: 35px;
+    	bottom: 108px;
+		width:209px;
+		height:48px;
+		display:block;
+		overflow:hidden;
+		}
+	.Hknow9>img{
+		width:209px;
+		height:48px;
+		}
+	.logo{
+		width:199px !important;
+		height:134px;
+		position:absolute;
+		right:142px;
+		top:143px;
+		}
+	header>img{
+		width:100%;
+		height:auto;
+		}
+	.title{
+		width:100%;
+		height:90px;
+		overflow:hidden;
+		background:url(../images/H5_09/title.png) no-repeat;
+		text-align:center;
+		}	
+	.p-one{
+		font-size: 13px;
+		font-family: "FZLTCHJW";
+		color: white;
+		letter-spacing: 25px;
+		margin-top: 7px;
+		}
+	.p-two{
+		font-size: 40px;
+		font-family: "FZLTCHJW";
+		color: white;
+		}
+	.bg-keting{
+		background:#ff9360;
+		}
+	.bg-room{
+		background:#19c6ad;
+		}
+	.bg-cook{
+		background:#ffab00;
+		}
+	.big-bg-one{
+		background:url(../images/H5_09/one.jpg) no-repeat;
+		}
+	.big-bg-two{
+		background:url(../images/H5_09/two.jpg) no-repeat;
+		}
+	.big-bg-three{
+		background:url(../images/H5_09/three.jpg) no-repeat;
+		}
+	.big-img{
+		width:100%;
+		height:282px;
+		overflow:hidden;
+		}
+	.img-radius{
+		width:627px;
+		height:271px;
+		background:white;
+		overflow:hidden;
+		margin: 8px auto 0 auto;
+		border-top-left-radius: 42px;
+		border-top-right-radius: 42px;
+		}
+	.img-radius>img{
+		width:100%;
+		height:100%;
+		}
+	.product{
+		width:633px;
+		height:auto;
+		overflow:hidden;
+		margin:5px auto 8px auto;
+		}
+	.product>ul{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		}
+	.product>ul li{
+		float:left;
+		margin-right:5px;
+		margin-top:4px;
+		}
+	.product>ul li:nth-child(2n){
+		margin-right:0px;
+		}
+	.product>ul li img{
+		width:100%;
+		height:100%;
+		}
+	.pro-item{
+		width:314px;
+		height:247px;
+		position:relative;
+		overflow:hidden;
+		}
+	.kuang{
+		width:260px;
+		height:125px;
+		border-left:1px solid #7f847a;
+		border-right:1px solid #7f847a;
+		border-bottom:1px solid #7f847a;
+		position:absolute;
+		left:31px;
+		top:61px;
+		background:rgba(0,0,0,0.6);
+		text-align:center;
+		}
+	.name{
+		font-size: 30px;
+		font-family: "FZLTCHJW";
+		color: #fff;
+		margin-top:5px;
+		}
+	.address{
+		font-size: 20px;
+		font-family: "FZLTXHK";
+		color: #fff;
+		}
+	.money{
+		font-size: 15px;
+		font-family: "FZLTXHK";
+		color: #fff;
+		width:127px;
+		height:29px;
+		margin:5px auto 0px auto;
+		border:1px solid #fff;
+		border-radius:40px;
+		line-height:29px;
+		letter-spacing:2px;
+		}
+	.fs_container{
+		z-index:9999;
+		}
+

@@ -1,0 +1,261 @@
+/* CSS Document */
+html,body{
+		max-width:640px;
+		width:640px;
+	  	margin: 0 auto;
+		height:100%;
+		}
+	section{
+	  overflow:hidden;
+	  width:100%;
+	  box-sizing:border-box;
+	  overflow:hidden;
+	  }
+	  
+	header{
+		width:100%;
+		height:1136px;
+		overflow:hidden;
+		background:url(../images/H5_08/header.jpg) no-repeat;
+		position:relative;
+		}
+	header>img{
+		width:100%;
+		height:auto;
+		}
+	.Hknow8{
+	position:absolute;
+	right: 140px;
+    top: 224px;
+	width:209px;
+	height:48px;
+	display:block;
+	overflow:hidden;
+	}
+.Hknow8>img{
+	width:209px;
+	height:48px;
+	}
+	.header-main{
+		width:600px;
+		height:auto;
+		margin:128px auto 0px auto;
+		overflow:hidden;
+		position:relative;
+		}
+	.header-main>img{
+		width:100%;
+		height:586px;
+		}
+	.logo{
+		position:absolute;
+		right:167px;
+		top:20px;
+		}
+	.year{
+		font-size: 60px;
+		font-family: "RTWSYueGoTrial";
+		color: #fff;
+		position: absolute;
+		right: 105px;
+		bottom: 65px;
+		}
+	.style{
+		width:422px;
+		height:205px;
+		margin:44px auto 0 auto;
+		overflow:hidden;
+		background:#ed9707;
+		}
+	.style>p{
+		width:365px;
+		margin:0 auto;
+		letter-spacing:2px;
+		}
+	.style p:nth-child(1){
+		font-size: 32px;
+		font-family: "Microsoft YaHei";
+		color: #fff;
+		}
+	.style p:nth-child(2){
+		font-size: 26px;
+		font-family: "Microsoft YaHei";
+		color: #fff;
+		}
+	.style p:nth-child(3){
+		font-size: 19px;
+		font-family: "Microsoft YaHei";
+		color:#fff;
+		margin-top:7px;
+		}
+	.name-name>span{
+		font-size: 45px;
+		font-family: "SimHei";
+		color:#333333;
+		}
+	.jiao{
+		position:absolute;
+		top:0px;
+		}
+	.one-bg{
+		background:url(../images/H5_08/one-bg.jpg);
+		margin-top:-5px;
+		}
+	.two-bg{
+		background:url(../images/H5_08/two-bg.jpg) no-repeat;
+		}
+	.three-bg{
+		background:url(../images/H5_08/three-bg.jpg);
+		}
+	.title{
+		width:280px;
+		height:98px;
+		background:#dd9251;
+		-moz-box-shadow: 3px 4px 0px #c87b38;
+		-webkit-box-shadow: 3px 4px 0px #c87b38;
+		box-shadow: 3px 4px 0px #c87b38;
+		text-align:center;
+		}
+	.t1{
+		margin:184px auto 0px auto;
+		}
+	.t2{
+		margin:127px auto 0px auto;
+		}
+	.t3{
+		margin:122px auto 0px auto;
+		}
+	.name{
+		font-size: 30px;
+		font-family: "FZLTHK";
+		color:#fff;
+		padding-top:5px;
+		}
+	.summary{
+		font-size: 18px;
+		font-family: "FZLTHK";
+		color: #fff;
+		width:119px;
+		height:36px;
+		line-height:36px;
+		border:1px solid #fff;
+		margin:3px auto 0 auto;
+		overflow:hidden;
+		}
+	.item{
+		width:555px;
+		height:236px;
+		margin:54px auto 0 auto;
+		overflow:hidden;
+		background:#fff;
+		}
+	section img{
+		width:100%;
+		height:100%;
+		}
+	.left{
+		float:left;
+		}
+	.right{
+		float:right;
+		}
+	.detail{
+		width:314px;
+		height:100%;
+		overflow:hidden;
+		}
+	.detail-font{
+		width:241px;
+		height:100%;
+		}
+	.d-1{
+		font-size: 22.5px;
+		font-family: "FZLTHK";
+		color:#333333;
+		margin-top:58px;
+		text-indent:12px;
+		letter-spacing:4px;
+		}
+	.d-2{
+		text-indent:12px;
+		letter-spacing:1px;
+		}
+	.d-2>label{
+		font-size: 20px;
+		font-family: "FZLTHK";
+		color: rgb(153, 153, 153);
+		}
+	.d-2>span{
+		font-size: 20px;
+		font-family: "FZLTHK";
+		color:#666666;
+		}
+	.item2{
+		width:553px;
+		height:314px;
+		margin:20px auto 0 auto;
+		overflow:hidden;
+		}
+	.name-lg{
+		width:291px;
+		height:314px;
+		}
+	.name-name{
+		width:123px;
+		height:159px;
+		overflow:hidden;
+		margin:0 auto;
+		line-height: 159px;
+    	text-align: center;
+		background:url(../images/H5_08/name-name.png) no-repeat;
+		}
+	.lg{
+		width:291px;
+		height:111px;
+		margin-top:43px;
+		overflow:hidden;
+		}
+	.jieshao{
+		width:244px;
+		height:100%;
+		overflow:hidden;
+		}
+	.jieshao-img{
+		width:100%;
+		height:222px;
+		}
+	.jieshao-font{
+		width:100%;
+		height:92px;
+		background:#f0bd90;
+		overflow:hidden;
+		}
+	.jie-p1{
+		font-size: 18px;
+		font-family: "FZLTHK";
+		color: #fff;
+		text-indent:12px;
+		margin-top:2px;
+		}
+	.jie-p2{
+		font-size: 22px;
+		font-family: "FZLTHK";
+		color: #fff;
+		text-indent:12px;
+		}
+	.item3{
+		width:558px;
+		height:189px;
+		margin:20px auto 0 auto;
+		overflow:hidden;
+		}
+	.r3-font{
+		width:242px;
+		height:177px;
+		border:6px solid #f0b885;
+		background:#fff;
+		}
+	.r3-img{
+		width:304px;
+		height:189px;
+		}

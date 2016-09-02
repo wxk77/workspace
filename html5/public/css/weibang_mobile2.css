@@ -1,0 +1,302 @@
+body{
+	width: 16rem;
+}
+.banner{
+	width: 100%;
+	height: 28.4rem;
+	background:url(../images/H5_06/weibang_mobile2_banner.png) no-repeat;
+	background-size:100% 28.4rem;
+	overflow:hidden;
+	position:relative;
+}
+.banner-img{
+	width:4.725rem;
+	height:1.225rem;
+	margin:1.475rem auto;
+	overflow:hidden;
+	}
+.banner-img>img{
+	width:4.725rem;
+	height:1.225rem;
+	}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.Hknow6{
+	position:absolute;
+	left: 3.3rem;
+    top: 10.5rem;
+	width:9.425rem;
+	height:1.525rem;
+	display:block;
+	overflow:hidden;
+	}
+.Hknow6>img{
+	width:9.425rem;
+	height:1.525rem;
+	}
+section{
+	width: 16rem;
+}
+section .main{
+	width: 15rem;
+	padding: 0 0.5rem;
+	background-color: #9fc2f2;
+}
+section .main .items{
+	padding-top: 0.675rem;
+	width: 100%;
+}
+section .main .items .items_h{
+	width: 100%;
+	border-top: 0.125rem solid transparent;
+	border-bottom: 0.4rem solid transparent;
+	height: 2.7rem;
+	position: relative;
+	background: linear-gradient(145deg,transparent 0,transparent 13%, #769acc 13%, #769acc) no-repeat;
+}
+section .main .items .items_h .build{
+	width: 2.3rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 0.05rem;
+    left: 0.1rem;
+    color: #fff;
+    text-indent: 0.2rem;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+    background: linear-gradient(145deg,#6282b1 0,#6282b1 50%,transparent 50%,transparent 100%);
+}
+section .main:nth-child(2){
+	background-color: #76cabb; 
+}
+section .main:nth-child(2) .items .items_h{
+	background: linear-gradient(145deg,transparent 0,transparent 13%, #50af9e 13%, #50af9e) no-repeat;
+}
+section .main:nth-child(2) .items .items_h .build{
+	background: linear-gradient(145deg,#3e9f8e 0,#3e9f8e 50%,transparent 50%,transparent 100%);
+}
+section .main:nth-child(3){
+	background-color: #76ca82; 
+}
+section .main:nth-child(3) .items .items_h{
+	background: linear-gradient(145deg,transparent 0,transparent 13%, #5fb76b 13%, #5fb76b) no-repeat;
+}
+section .main:nth-child(3) .items .items_h .build{
+	background: linear-gradient(145deg,#50ac5c 0,#50ac5c 50%,transparent 50%,transparent 100%);
+}
+section .main:nth-child(4){
+	background-color: #76cac5; 
+}
+section .main:nth-child(4) .items .items_h{
+	background: linear-gradient(145deg,transparent 0,transparent 13%, #52b6b0 13%, #52b6b0) no-repeat;
+}
+section .main:nth-child(4) .items .items_h .build{
+	background: linear-gradient(145deg,#44a8a2 0,#44a8a2 50%,transparent 50%,transparent 100%);
+}
+section .main:nth-child(5){
+	background-color: #76b7ca; 
+}
+section .main:nth-child(5) .items .items_h{
+	background: linear-gradient(145deg,transparent 0,transparent 13%, #4f99af 13%, #4f99af) no-repeat;
+}
+section .main:nth-child(5) .items .items_h .build{
+	background: linear-gradient(145deg,#4a93a8 0,#4a93a8 50%,transparent 50%,transparent 100%);
+	    top: 0.08rem;
+    left: 0.1rem;
+}
+section .main .items .items_h .area{
+	position: absolute;
+	left: 2.25rem;
+	top: 0;
+	width:5.275rem;
+	height: 2.2rem;
+	text-align: center;
+	color: #fff;
+	padding-top: 0.5rem;
+	line-height: 1rem;
+	font-size: 0.6rem;
+}
+
+section .main .items .items_h .area .area_h{
+	font-size: 0.9rem;
+}
+section .main .items .items_h .logo{
+	position: absolute;
+	top:-0.125rem;
+	right: 3.175rem;
+	width: 4.3rem;
+	height: 2.9rem;
+	box-sizing: border-box;
+	border: 0.1rem solid #fff;
+}
+section .main .items .items_h .logo img{
+	width: 100%;
+	height: 100%;
+}
+section .main .items .items_h .logo:after{
+	content: "";
+	position: absolute;
+	left: -0.1rem;
+	bottom: -0.45rem;
+	width: 4.3rem;
+	height: 0.35rem;
+	background: url(../images/H5_06/weibang_shadow.png) no-repeat center top;
+	background-size: 4.3rem 0.35rem;
+}
+section .main .items .items_h .slogan{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 3.175rem;
+	height: 2.3remrem;
+	padding-top: 0.4rem;
+	line-height: 1rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.6rem;
+}
+section .main .items .items_c{
+	width: 100%;
+	padding-top: 1rem;
+	overflow: hidden;
+}
+section .main .items .items_c ul{
+	width: 100%;
+	/*padding-right: 0.15rem;
+	float: left;*/
+}
+/*section .main .items .items_c ul:last-child{
+	padding-right: 0;
+	padding-top: 1.15rem;
+}*/
+section .main .items .items_c ul li{
+	width: 7.125rem;
+	padding: 0.13rem;
+	margin-bottom: 1.1rem;
+	background-color: #fff;
+	float:left;
+}
+section .main .items .items_c ul li:last-child{
+	float:right;
+}
+section .main .items .items_c ul li a{
+	display: block;
+	width: 100%;
+	
+}
+section .main .items .items_c ul li a img{
+	width: 7.125rem;
+	height: 7.125rem;
+}
+section .main .items .items_c ul li a .details{
+	width: 100%;
+	/*height: 2rem;*/
+	height:auto;
+	line-height: 1rem;
+	font-size: 0.6rem;
+	color: #666666;
+	overflow: hidden;
+}
+.bu{
+	width:4rem !important;
+	height:0.9rem;
+	margin:0.2rem auto 0.5rem;
+	overflow:hidden;
+	display:block;
+	text-align:center;
+	line-height:0.8rem;
+	border-radius:1.25rem;
+	font-size: 0.5rem;
+	font-family: "Microsoft YaHei";
+	color:#fff;
+	}
+.one{
+	background:#769acc;
+	}
+.two{
+	background:#50af9e;
+	}
+.three{
+	background:#5fb76b;
+	}
+.four{
+	background:#52b6b0;
+	}
+.five{
+	background:#4f99af;
+	}
+.shopname{
+	font-size: 0.7rem;
+	color: #333333;
+	text-align:center;
+	padding-top:0.2rem;
+	font-family: "Microsoft YaHei";
+}
+.p-2{
+	text-align:center;
+	font-size: 0.45rem;
+	letter-spacing:0.025rem;
+	font-family: "Microsoft YaHei";
+	color: #666666;
+	}
+.floatL .fs_title1{
+	color:#ff6d01;
+	}
+.floatL .fs_title2{
+	margin-top:0.5rem;
+	}
+.big-img{
+				width:100%;
+				height:auto;
+				overflow:hidden;
+				background:#fff;
+				margin-bottom:1.475rem;
+				}
+			.big-img>a{
+				display:block;
+				float:left;
+				width:6.95rem;
+				height:7.9rem;
+				padding:0.15rem;
+				overflow:hidden;
+				}
+			.big-img>a img{
+				width:6.95rem;
+				height:7.9rem;
+				}
+			.big-font{
+				width:7.5rem;
+				height:7.9rem;
+				float:left;
+				overflow:hidden;
+				}
+			.bu-big{
+				width:4rem !important;
+				height:0.9rem;
+				margin:0.6rem auto 0.5rem;
+				overflow:hidden;
+				display:block;
+				text-align:center;
+				line-height:0.9rem;
+				border-radius:1.25rem;
+				font-size: 0.5rem;
+				font-family: "Microsoft YaHei";
+				color:#fff;
+				}
+			.big-title{
+				font-size: 0.7rem;
+				color: #333333;
+				text-align:center;
+				margin-top:2.2rem;
+				font-family: "Microsoft YaHei";
+				}
+			.p-name{
+				text-align:center;
+				font-size: 0.45rem;
+				letter-spacing:0.025rem;
+				font-family: "Microsoft YaHei";
+				color: #666666;
+				margin-top:0.2rem;
+				}

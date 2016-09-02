@@ -1,0 +1,155 @@
+/* CSS Document */
+header{
+		width:100%;
+		height:1136px;
+		overflow:hidden;
+		position:relative;
+		}
+	header>img{
+		width:100%;
+		height:100%;
+		}
+	.butie2{
+		position:absolute;
+		left: 29%;
+    	top: 54%;
+		width:275px;
+		height:53px;
+		display:block;
+		}
+	.butie2>img{
+		width:100%;
+		height:100%;
+		}
+	.bg1{
+		background:#0ec48a;
+		padding-bottom:35px;
+		}
+	.bg2{
+		background:#d9381c;
+		padding-bottom:35px;
+		}
+	.bg3{
+		background:#fa9e1d;
+		padding-bottom:35px;
+		}
+	.top{
+		width:100%;
+		height:336px;
+		overflow:hidden;
+		}
+	.top-title{
+		width:257px;
+		height:336px;
+		}
+	.left{
+		float:left;
+		}
+	.right{
+		float:right;
+		}
+	.top-one{
+		background:url(../images/H5_12/summary1.jpg) no-repeat;
+		background-size:100% 100%;
+		}
+	.top-two{
+		background:url(../images/H5_12/summary2.jpg) no-repeat;
+		background-size:100% 100%;
+		}
+	.top-three{
+		background:url(../images/H5_12/summary3.jpg) no-repeat;
+		background-size:100% 100%;
+		}
+	.top-title p:nth-child(1){
+		font-size: 32px;
+		font-family: "Microsoft YaHei";
+		color:#fff;
+		text-align:center;
+		margin-top:180px;
+		}
+	.top-title p:nth-child(2){
+		font-size: 25px;
+		font-family: "Microsoft YaHei";
+		color: #fff;
+		text-align:center;
+		}
+	.top-img{
+		width:383px;
+		height:336px;
+		overflow:hidden;
+		}
+	.top-img>img{
+		width:100%;
+		height:100%;
+		}
+	.detail{
+		width:617px;
+		height:auto;
+		overflow:hidden;
+		margin:0 auto;
+		}
+	.item:nth-child(1){
+		margin-top:30px;
+		}
+	.item{
+		margin-top:25px;
+		width:100%;
+		height:227px;
+		overflow:hidden;
+		border-radius:20px;
+		}
+	.item-img{
+		width:337px;
+		float:left;
+		height:100%;
+		overflow:hidden;
+		}
+	.item-img>img{
+		width:100%;
+		height:100%;
+		}
+	.item-font{
+		width:280px;
+		height:100%;
+		background:#fff;
+		float:right;
+		}
+	.font-top{
+		height:125px;
+		width:100%;
+		overflow:hidden;
+		}
+	.font-top p{
+		text-align:center;
+		font-family: "FZLTCHJW";
+		color:#000;
+		}
+	.font-top p:nth-child(1) a{
+		font-size: 41px;
+		font-weight:bold;
+		margin-top:19px;
+		display:block;
+		text-align:center;
+		font-family: "FZLTCHJW";
+		color:#000;
+		}
+	.font-top p:nth-child(2){
+		font-size: 21px;
+		letter-spacing:1px;
+		}
+	.butie{
+		margin:15px auto;
+		width:188px;
+		height:49px;
+		border:1px solid #111111;
+		overflow:hidden;
+		border-radius:50px;
+		text-align:center;
+		line-height:49px;
+		}
+	.butie>span{
+		font-size: 24px;
+		font-family: "FZLTXHK";
+		color:#000;
+		letter-spacing:3px;
+		}

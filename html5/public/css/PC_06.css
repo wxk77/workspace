@@ -1,0 +1,405 @@
+/* CSS Document */
+	.header{
+		width:100%;
+		height:79px;
+		border-bottom:1px solid #dee3e4;
+		}
+	.nav{
+		width:1200px;
+		height:79px;
+		margin:0 auto;
+		overflow:hidden;
+		background:#fff;
+		}
+	.left{
+		width:382px;
+		height:79px;
+		float:left;
+		}
+	.logo{
+		float:left;
+		}
+	.map{
+		width:auto;
+		float:left;
+		margin-left:33px;
+		overflow:hidden;
+		height:79px;
+		}
+	.map>ul li{
+		float:left;
+		height:79px;
+		line-height:79px;
+		margin-left:10px;
+		}
+	.map>ul >li img{
+		vertical-align:middle;
+		}
+	.map>ul >li span{
+		vertical-align:middle;
+		font-size:14px;
+		color:#c3c6c6;
+		padding-left:3px;
+		}
+	.map>ul >li a{
+		vertical-align:middle;
+		font-size:14px;
+		color:#13aaf3;
+		}
+	.center{
+		width:606px;
+		height:78px;
+		overflow:hidden;
+		float:left;
+		margin-top:1px;
+		}
+	.center>ul{
+		width:100%;
+		height:100%;
+		overflow:hidden;
+		}
+	.center>ul li{
+		float:left;
+		width:120px;
+		border-right:1px solid #edf0f2;
+		height:78px;
+		line-height:78px;
+		text-align:center;
+		}
+	.center>ul li:nth-child(1){
+		border-left:1px solid #edf0f2;
+		}
+	.center>ul li a{
+		font-size:16px;
+		color:#999e9e;
+		text-decoration:none;
+		display:block;
+		width:100%;
+		height:79px;
+		}
+	.right{
+		width:210px;
+		height:79px;
+		float:left;
+		line-height:79px;
+		text-align:center;
+		}
+	.right>a{
+		font-size:16px;
+		color:#7ecc26;
+		text-decoration:none;
+		}
+	.content-all{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		}
+	.content{
+		width:100%;
+		height:auto;
+		margin:0 auto;
+		overflow:hidden;
+		}
+	.banner{
+		width:100%;
+		height:663px;
+		overflow:hidden;
+		background:url(../images/PC_06/banner01.png) no-repeat;
+		background-size:100% 100%;
+		}
+	.banner-logo{
+		width:1200px;
+		height:100%;
+		overflow:hidden;
+		margin:0 auto;
+		position:relative;
+		}
+	.banner-logo-img{
+		width:189px;
+		height:49px;
+		margin:25px auto 0 auto;
+		}
+	.banner-logo-img>img{
+		width:189px;
+		height:49px;
+		}
+	.banner>img{
+		width:100%;
+		height:100%;
+		}
+	.detail{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		}
+	.big-title{
+		width:608px;
+		height:229px;
+		margin:48px auto 62px auto;
+		overflow:hidden;
+		}
+	.classes{
+		width:1200px;
+		height:212px;
+		margin:0 auto;
+		overflow:hidden;
+		}
+	.classes>ul{
+		width:1200px;
+		height:319px;
+		overflow:hidden;
+		}
+	.classes>ul>li{
+		float:left;
+		width:211px;
+		height:211px;
+		background:url(../images/PC_06/class-bg.png) no-repeat;
+		margin-left:35px;
+		}
+	.classes>ul li:nth-child(1){
+		margin-left:0;
+		}
+	.cla-p1{
+		font-size: 20px;
+		font-family: "Microsoft YaHei";
+		color:#6588c5;
+		margin-top:90px;
+		}
+	.classes>ul>li p{
+		text-align:center;
+		}
+	.item-all{
+		width:1713px;
+		height:auto;
+		margin:0 auto 205px auto;
+		overflow:hidden;
+		position:relative;
+		}
+	.item{
+		width:100%;
+		height:auto;
+		margin-top:205px;
+		overflow:hidden;
+		
+		}
+	.item-one{
+		background:url(../images/PC_06/floor1-bg.jpg) 0px 70px no-repeat;
+		}
+	.item-two{
+		background:url(../images/PC_06/f2-bg.jpg) 0px 70px no-repeat;
+		}
+	.item-three{
+		background:url(../images/PC_06/f3-bg.jpg) 0px 70px no-repeat;
+		}
+	.item-four{
+		background:url(../images/PC_06/f4-bg.jpg) 0px 70px no-repeat;
+		}
+	.item-five{
+		background:url(../images/PC_06/f5-bg.jpg) 0px 70px no-repeat;
+		}
+	.item-detail{
+		width:1200px;
+		height:auto;
+		overflow:hidden;
+		margin:0 auto;
+		}
+	.item-top{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		}
+	.floor{
+		width:255px;
+		height:108px;
+		overflow:hidden;
+		float:left;
+		text-align:center;
+		margin-top:145px;
+		margin-left:45px;
+		}
+	.floor1{
+		
+		background:url(../images/PC_06/floor1@2x.png) no-repeat;
+		}
+	.floor2{
+		background:url(../images/PC_06/floor2@2x.png) no-repeat;
+		}
+	.floor3{
+		background:url(../images/PC_06/floor3@2x.png) no-repeat;
+		}
+	.floor4{
+		background:url(../images/PC_06/floor4@2x.png) no-repeat;
+		}
+	.floor5{
+		background:url(../images/PC_06/floor5@2x.png) no-repeat;
+		}
+	.c-name{
+		font-size: 22px;
+		font-family: "Microsoft YaHei";
+		color: #6282b1;
+		margin-top:27px;
+		letter-spacing:1px;
+		}
+	.e-name{
+		font-size: 14px;
+		font-family: "Arial";
+		color: #6282b1;
+		margin-top:2px;
+		}
+	.top-img{
+		margin-left:130px;
+		float:left;
+		width:449px;
+		height:298px;
+		border:5px solid #fff;
+		overflow:hidden;
+		}
+	.list{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		margin-top:54px;
+		}
+	.list ul{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		}
+	.list ul li{
+		width:328px;
+		height:auto;
+		float:left;
+		margin-left:54px;
+		overflow:hidden;
+		}
+	.list ul li>a{
+		display:block;
+		width:100%;
+		height:257px;
+		overflow:hidden;
+		}
+	.list-detail{
+		width:324px;
+		height:148px;
+		border:2px solid #f3f3f3;
+		overflow:hidden;
+		}
+	.list-title{
+		font-size: 22px;
+		font-family: "Microsoft YaHei";
+		color: #333333;
+		text-align:center;
+		margin-top:13px;
+		}
+	
+	.list-font{
+		font-size: 16px;
+		font-family: "Microsoft YaHei";
+		color:#666666;
+		text-align:center;
+		margin-top:7px;
+		}
+	.bu{
+		font-size: 22px;
+		font-family: "Microsoft YaHei";
+		color: #fff;
+		display:block;
+		width:180px;
+		height:39px;
+		margin:14px auto 0 auto;
+		border-radius:40px;
+		text-align:center;
+		line-height:39px;
+		}
+	.bu label{
+		padding:0 5px 0 5px;
+		cursor:pointer;
+		}
+	.bu1{
+		background:#9fc2f2;
+		}
+	.bu2{
+		background:#76cabb;
+		}
+	.bu3{
+		background:#76ca82;
+		}
+	.bu4{
+		background:#76cac5;
+		}
+	.bu5{
+		background:#76b7ca;
+		}
+	.footer-all{
+		width:100%;
+		height:347px;
+		background:#1d2030;
+		overflow:hidden;
+		}
+	
+	.footer{
+		width:1200px;
+		height:100%;
+		margin:59px auto 0 auto;
+		overflow:hidden;
+		}
+	.footer-items{
+		width:272px;
+		float:left;
+		}
+	.fitem-title{
+		margin-bottom:40px;
+		width:100%;
+		font-size:14px;
+		color:#8b93c3;
+		}
+	.fitem-li{
+		height:38px;
+		line-height:38px;
+		width:100%;
+		font-size:12px;
+		color:#3a456b;
+		}
+	.footer-erweima{
+		width:375px;
+		float:right;
+		margin-right:8px;
+		overflow:hidden;
+		}
+	.erweima{
+		width:100px;
+		height:auto;
+		float:right;
+		}
+	.erweima>img{
+		width:100%;
+		height:100px;
+		}
+	.erweima>p{
+		text-align:center;
+		font-size:12px;
+		color:#3a456b;
+		}
+	.footer-erweima>p{
+		text-align:right;
+		font-size:12px;
+		color:#3a456b;
+		line-height:25px;
+		}
+	.ff-mar{
+		margin-top:40px;
+		}
+	.fixed{
+		width:1316px;
+		height:auto;
+		overflow:hidden;
+		position:relative;
+		margin:0 auto;
+		}
+	.back{
+		display:block;
+		position:absolute;
+		right: 158px;
+    	bottom: -1px;
+		}
+

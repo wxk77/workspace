@@ -1,0 +1,565 @@
+/* CSS Document */
+body{
+	background:url(../images/PC_04/bg.png) repeat;
+	}
+	
+nav{
+	background:white;
+	height:79px;
+	}
+nav div{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+nav section{
+	width:auto;
+	height:auto;
+	overflow:hidden;
+	float:left;
+	}
+nav section img{
+	padding-left:20px;
+	padding-right:20px;
+	}
+nav section ul li{
+	color:#999e9e;
+	float:left;
+	font-size:14px;
+	width:120px;
+	line-height:79px;
+	text-align:center;
+	}
+/*<!--nav结束-->*/
+
+.header-top{
+	background:url(../images/PC_04/header.png) no-repeat;
+	background-size:100% 100%;
+	height:671px;
+	position:relative;
+	}
+.header-top img{
+	position:absolute;
+	}
+.logo{
+	top:10%;
+	left:32%;
+	}
+.word{
+	top:33%;
+	left:18%;
+	}
+.tip{
+	height:170px;
+	width:450px;
+	margin:0 auto;
+	}
+.tip h1{
+    font-size: 28px;
+    font-family: "Microsoft YaHei";
+    color: #333333;
+	text-align:center;
+	}
+.tip h1 span{
+	color:#ffa00c;
+	}
+.tip p{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: #666666;
+	}
+.tip hr{
+	width:150px;
+	border-bottom:2px solid #ff9c0a;
+	margin: 15px auto;
+	}
+/*<!--header结束-->*/
+
+.content{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.content-item{
+	margin-top:85px;
+	margin-bottom:85px;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	}
+.title{
+	width:100%;
+	height:115px;
+	background:#067191;
+	overflow:hidden;
+	}
+.title-center{
+	height:50px;
+	overflow:hidden;
+	width:100%;
+	margin-top: 21px;
+	position:relative;
+	}
+.title-center>p{
+	 font-size: 37.873px;
+    font-family: "Aparajita";
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: auto;
+    overflow: hidden;
+	}
+.title-center>p label{
+	font-size: 32px;
+	}
+.title-center>p:before{
+	background:url(../images/PC_04/line.png) repeat-x;
+	width:443px;
+	content:"";
+	height: 20px;
+    position: absolute;
+    top: 32%;
+    left: 23px;
+	}
+.title-center>p:after{
+	background:url(../images/PC_04/line.png) repeat-x;
+	width:443px;
+	content:"";
+	height: 20px;
+    position: absolute;
+    top: 32%;
+	right:23px;
+	}
+.title>p{
+    font-size: 37.873px;
+    font-family: "Aparajita";
+    color: #fff;
+    font-style: italic;
+	text-align:center;
+	height:33px;
+	line-height:33px;
+	}
+/*title*/
+.detail1{
+	background:url(../images/PC_04/detail-bg.png) repeat;
+	border-left:4px solid #ffffff;
+	border-right:4px solid #ffffff;
+	border-bottom:4px solid #ffffff;
+	padding:40px 20px 32px 20px;
+	overflow: hidden;
+	}
+.detail1 .top-left{
+	width:811px;
+	height:auto;
+	float:left;
+	overflow:hidden;
+	}
+.detail1 .top-left .top{
+    overflow:hidden;
+	}
+.detail1 .top-left .top .left{
+	width:109px;
+	height:auto;
+	background:white;
+	overflow:hidden;
+	float:left;
+	}
+.detail1 .top-left .top .left h2{
+  	height:378px;
+    font-size: 36.189px;
+    font-family: "Aparajita";
+    color: rgb(6, 113, 145);
+	width:50px;
+	float:left;
+	-webkit-writing-mode:vertical-lr;
+	writing-mode:vertical-lr;
+	writing-mode:tb-lr;
+	text-align:center;
+	}
+.detail1 .top-left .top .left p{
+	height:378px;
+    font-size: 30px;
+    font-family: "Aparajita";
+    color: rgb(6, 113, 145);
+	width:50px;
+	float:left;
+	-webkit-writing-mode:vertical-lr;
+	writing-mode:vertical-lr;
+	writing-mode:tb-lr;
+	text-align:center;
+	}
+.detail1 .top-left .top .right{
+	float:right;
+	}
+.detail1 .top-left .bottom{
+	
+	}
+.detail1 .top-left .bottom li{
+	margin-top:20px;
+	border:1px solid #e5e5e5;
+	}
+.detail1 .top-left .bottom li{
+    position:relative;
+	float:left;
+	overflow:hidden;
+	margin-left: 23px;
+	}
+.detail1 .top-left .bottom li:nth-child(1){
+	margin-left:0px;
+	}
+.detail1 .top-left .bottom li .bg{
+	position:absolute;
+	bottom:0px;
+	background:rgba(0,0,0,0.5);
+	width:254px;
+	height:65px;
+	}
+.detail1 .top-left .bottom li .bg .left{
+	float:left;
+	}
+.detail1 .top-left .bottom li .bg .left p{
+	padding-top:5px;
+	padding-left:10px;
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(255, 255, 255);
+	line-height:25px;
+	}
+.detail1 .top-left .bottom li .bg .right{
+	float:right;
+	}
+.detail1  .top-left .bottom li .bg .right p{
+	font-size: 8.697px;
+    font-family: "SimSun";
+    color: rgb(6, 113, 145);
+	line-height:50px;
+	padding-right:25px;
+	}
+.detail1 .top-left .bottom li .bg .money{
+	font-size: 20px;
+	padding:7px;
+	}
+
+/*top-left结束*/
+.detail1 .top-right{
+	float:right;
+	margin-left:21px;
+	}
+.detail1 .top-right .top{
+	border:1px solid #e5e5e5;
+	padding:8px 8px 9px 8px;
+	overflow:hidden;
+	background:white;
+	}
+.detail1 .top-right .top img{
+	display:block;
+	}
+.detail1 .top-right .top .left{
+	float:left;
+	}
+.detail1 .top-right .top .left p{
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+	line-height:25px;
+	padding-top: 6px;
+	}
+.detail1 .top-right .top .right{
+	float:right;
+	}
+.detail1 .top-right .top .right p{
+	font-size: 8.697px;
+    font-family: "SimSun";
+    color: rgb(6, 113, 145);
+	line-height:50px;
+	padding-right:25px;
+	padding-top: 7px;
+    padding-bottom: 5px;
+	}
+.detail1 .top-right .top .right .money{
+	font-size: 20px;
+	padding:7px;
+	}
+
+/*top结束*/	
+.detail1 .top-right .bottom{
+	border:1px solid #e5e5e5;
+	padding:8px 8px 9px 8px;
+	margin-top:20px;
+	overflow:hidden;
+	background:white;
+	}
+.detail1 .top-right .bottom img{
+	display:block;
+	}
+.detail1 .top-right .bottom .left{
+	float:left;
+	}
+.detail1 .top-right .bottom .left p{
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+	line-height:25px;
+	padding-top: 6px;
+	}
+.detail1 .top-right .bottom .right{
+	float:right;
+	}
+.detail1 .top-right .bottom .right p{
+	font-size: 8.697px;
+    font-family: "SimSun";
+    color: rgb(6, 113, 145);
+	line-height:50px;
+	padding-right:25px;
+	padding-top: 7px;
+    padding-bottom: 5px;
+	}
+.detail1 .top-right .bottom .right .money{
+	font-size: 20px;
+	padding:7px;
+	}
+/*bottom结束*/
+
+
+
+
+
+.detail2{
+	background:url(../images/PC_04/detail-bg.png) repeat;
+	border-left:4px solid #ffffff;
+	border-right:4px solid #ffffff;
+	border-bottom:4px solid #ffffff;
+	padding:40px 20px 32px 20px;
+	overflow: hidden;
+	}
+.detail2 .top-right{
+	width:811px;
+	height:auto;
+	float:left;
+	overflow:hidden;
+	}
+.detail2 .top-right .top{
+    overflow:hidden;
+	}
+.detail2 .top-right .top .right{
+	width:109px;
+	height:auto;
+	background:white;
+	overflow:hidden;
+	float:right;
+	}
+.detail2 .top-right .top .right h2{
+  	height:378px;
+    font-size: 36.189px;
+    font-family: "Aparajita";
+    color: rgb(6, 113, 145);
+	width:50px;
+	float:left;
+	-webkit-writing-mode:vertical-lr;
+	writing-mode:vertical-lr;
+	writing-mode:tb-lr;
+	text-align:center;
+	}
+.detail2 .top-right .top .right p{
+	height:378px;
+    font-size: 30px;
+    font-family: "Aparajita";
+    color: rgb(6, 113, 145);
+	width:50px;
+	float:left;
+	-webkit-writing-mode:vertical-lr;
+	writing-mode:vertical-lr;
+	writing-mode:tb-lr;
+	text-align:center;
+	}
+.detail2 .top-right .top .left{
+	float:left;
+	}
+.detail2 .top-right .bottom{
+	
+	}
+.detail2 .top-right .bottom li{
+	margin-top:20px;
+	border:1px solid #e5e5e5;
+	}
+.detail2 .top-right .bottom li{
+    position:relative;
+	float:left;
+	overflow:hidden;
+	margin-left: 23px;
+	}
+.detail2 .top-right .bottom li:nth-child(1){
+	margin-left:0px;
+	}
+.detail2 .top-right .bottom li .bg{
+	position:absolute;
+	bottom:0px;
+	background:rgba(0,0,0,0.5);
+	width:254px;
+	height:65px;
+	}
+.detail2 .top-right .bottom li .bg .left{
+	float:left;
+	}
+.detail2 .top-right .bottom li .bg .left p{
+	padding-top:5px;
+	padding-left:10px;
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(255, 255, 255);
+	line-height:25px;
+	}
+.detail2 .top-right .bottom li .bg .right{
+	float:right;
+	}
+.detail2 .top-right .bottom li .bg .right p{
+	font-size: 8.697px;
+    font-family: "SimSun";
+    color: rgb(6, 113, 145);
+	line-height:50px;
+	padding-right:25px;
+	}
+.detail2 .top-right .bottom li .bg .money{
+	font-size: 20px;
+	padding:7px;
+	}
+
+/*top-left结束*/
+.detail2 .top-left{
+	float:left;
+	margin-right:21px;
+	}
+.detail2 .top-left .top{
+	border:1px solid #e5e5e5;
+	padding:8px 8px 9px 8px;
+	overflow:hidden;
+	background:white;
+	}
+.detail2 .top-left .top img{
+	display:block;
+	}
+.detail2 .top-left .top .left{
+	float:left;
+	}
+.detail2 .top-left .top .left p{
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+	line-height:25px;
+	padding-top: 6px;
+	}
+.detail2 .top-left .top .right{
+	float:right;
+	}
+.detail2 .top-left .top .right p{
+	font-size: 8.697px;
+    font-family: "SimSun";
+    color: rgb(6, 113, 145);
+	line-height:50px;
+	padding-right:25px;
+	padding-top: 7px;
+    padding-bottom: 5px;
+	}
+.detail2 .top-left .top .right .money{
+	font-size: 20px;
+	padding:7px;
+	}
+
+/*top结束*/	
+.detail2 .top-left .bottom{
+	border:1px solid #e5e5e5;
+	padding:8px 8px 9px 8px;
+	margin-top:20px;
+	overflow:hidden;
+	background:white;
+	}
+.detail2 .top-left .bottom img{
+	display:block;
+	}
+.detail2 .top-left .bottom .left{
+	float:left;
+	}
+.detail2 .top-left .bottom .left p{
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+	line-height:25px;
+	padding-top: 6px;
+	}
+.detail2 .top-left .bottom .right{
+	float:right;
+	}
+.detail2 .top-left .bottom .right p{
+	font-size:14px;
+    font-family: "SimSun";
+    color: rgb(6, 113, 145);
+	line-height:50px;
+	padding-right:25px;
+	padding-top: 7px;
+    padding-bottom: 5px;
+	}
+.detail2 .top-left .bottom .right .money{
+	font-size: 20px;
+	padding:7px;
+	}
+/*bottom结束*/
+.footer-all{
+		width:100%;
+		height:347px;
+		background:#1d2030;
+		overflow:hidden;
+		}
+	
+	.footer{
+		width:1200px;
+		height:100%;
+		margin:59px auto 0 auto;
+		overflow:hidden;
+		}
+	.footer-items{
+		width:272px;
+		float:left;
+		}
+	.fitem-title{
+		margin-bottom:40px;
+		width:100%;
+		font-size:14px;
+		color:#8b93c3;
+		}
+	.fitem-li{
+		height:38px;
+		line-height:38px;
+		width:100%;
+		font-size:12px;
+		color:#3a456b;
+		}
+	.footer-erweima{
+		width:375px;
+		float:right;
+		margin-right:8px;
+		overflow:hidden;
+		}
+	.erweima{
+		width:100px;
+		height:auto;
+		float:right;
+		}
+	.erweima>img{
+		width:100%;
+		height:100px;
+		}
+	.erweima>p{
+		text-align:center;
+		font-size:12px;
+		color:#3a456b;
+		}
+	.footer-erweima>p{
+		text-align:right;
+		font-size:12px;
+		color:#3a456b;
+		line-height:25px;
+		}
+	.ff-mar{
+		margin-top:40px;
+		}

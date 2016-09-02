@@ -1,0 +1,15 @@
+/* CSS Document */
+
+	html,body{
+		max-width: 640px;
+		width:100%;
+	  	margin: 0 auto;
+		height:100%;
+		}
+	section{
+	  overflow:hidden;
+	  width:100%;
+	  box-sizing:border-box;
+	  }
+	  
+	 

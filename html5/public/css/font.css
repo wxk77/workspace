@@ -1,0 +1,33 @@
+/* CSS Document */
+	@font-face{
+		font-family: "FZLTCHJW";
+		src:url('../font/FZLTCHJW.TTF') format('truetype');
+		font-weight:normal;
+		font-style:normal;
+		}
+	@font-face{
+		font-family: "FZLTXHK";
+		src:url('../font/FZLTXHK.TTF') format('truetype');
+		font-weight:normal;
+		font-style:normal;
+		}
+	@font-face{
+		font-family: "FZLTHK";
+		src:url('../font/FZLTHK.TTF') format('truetype');
+		font-weight:normal;
+		font-style:normal;
+		}
+	@font-face{
+		font-family: "GJJCQJW";
+		src:url('../font/GJJCQJW.ttf') format('truetype');
+		font-weight:normal;
+		font-style:normal;
+		}
+	@font-face{
+		font-family: "RTWSYueGoTrial";
+		src:url('../font/造字工坊悦黑 .otf') format('opentype');
+		font-weight:normal;
+		font-style:normal;
+		}
+
+

@@ -1,0 +1,200 @@
+body{
+	width: 16rem;
+	margin: 0 auto;
+	background-color: #e1f0f8;
+}
+header{
+	width: 16rem;
+	height: 29.85rem;
+	margin-bottom: -1.45rem;
+}
+header .banner{
+	width: 16rem;
+	height: 29.85rem;
+	background: url(../images/H5_03/wuzhou_mobile_bg.jpg) no-repeat center top;
+	background-size: cover;
+	position:relative;
+}
+.logo{
+	position:absolute;
+	left:5.375rem;
+	top:3.4rem;
+	height:1.425rem;
+	width:5.225rem;
+	}
+.Hknow3{
+	position:absolute;
+	left: 6rem;
+    top: 12rem;
+	width:5.225rem;
+	height:1.2rem;
+	display:block;
+	overflow:hidden;
+	}
+.Hknow3>img{
+	width:5.225rem;
+	height:1.2rem;
+	}
+.main{
+	width: 16rem;
+	position: relative;
+	background: url(../images/H5_03/wuzhou_mobile_bg2.png) no-repeat center top;
+	background-size: 16rem 7rem;
+}
+.main .nav_head{
+	position: absolute;
+	top: 0.6rem;
+	left: 0.3rem;
+	width:6.375rem;
+	height:5.625rem;
+	background:url(../images/H5_03/woshibg.png) no-repeat;
+	overflow:hidden;
+	background-size:6.375rem 5.625rem;
+}
+.nav_head .head-img{
+	width:6.375rem;
+	height:5.625rem;
+	position:relative;
+	overflow:hidden;
+	}
+.head-li{
+	width: 4.75rem;
+    height: 4.75rem;
+    border-radius: 50%;
+    margin-left: 0.825rem;
+    margin-top: 0.175rem;
+    overflow: hidden;
+	}	
+.li-font{
+	width:100%;
+	height:1.575rem;
+	overflow:hidden;
+	background:#fff;
+	}
+.li-font>p{
+	font-size: 0.45rem;
+	font-family: "Microsoft YaHei";
+	color:#394666;
+	text-align:center;
+	}	
+.li-img{
+	width:100%;
+	height:3.15rem;
+	overflow:hidden;
+	}
+.li-img>img{
+	width:100%;
+	height:3.15rem;
+	}
+.kuang{
+	position:absolute;
+	width:3.925rem;
+	height:0.925rem;
+	background:#394666;
+	overflow:hidden;
+	border-radius:0.175rem;
+	right:0;
+	bottom:0.6rem;
+	line-height:0.925rem;
+	}
+.kuang p{
+	font-size: 0.625rem;
+	font-family: "HYg6gj";
+	color:#fdfffe;
+	text-align:center;
+	}
+.kuang p>label{
+  	font-size: 0.4rem;
+	}
+.main .container{
+	background: url(../images/H5_03/xuxian.png) no-repeat;
+	background-size: 1.575rem 26.575rem;
+	background-position: 0 4.5rem;
+}
+.main .container .cont_h{
+	padding-left: 7rem;
+	padding-right: 0.6rem;
+	padding-top: 3.125rem;
+	height: 3.925rem;
+}
+.main .container .cont_h p{
+	text-align: right;
+	font-size: 0.55rem;
+	line-height: 0.8rem;
+	padding-bottom: 0.3rem;
+}
+.main .container .cont_c{
+	width: 13.5rem;
+	height: 9.425rem;
+	padding: 0 0.5rem 1rem 2rem;
+}
+.main .container .cont_c a{
+	display: block;
+}
+.main .container .cont_c a img{
+	width: 13.5rem;
+	height: 9.425rem;
+}
+.main .container .cont_f{
+	overflow: hidden;
+	padding-left: 2rem;
+	padding-bottom: 2.925rem;
+}
+.main .container .cont_f .imgbox2{
+	display: -webkit-box;
+	display: box;
+	width: 100%;
+	box-sizing: border-box;
+}
+.main .container .cont_f .imgbox2 a{
+	margin-right: 0.5rem;
+	width: 6.5rem;
+	display: block;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+}
+.main .container .cont_f .imgbox2 a img{
+	width: 6.5rem;
+	height: 5.55rem;
+}
+.main .container .cont_f .imgbox2 a .info{
+	width: 100%;
+	box-sizing: border-box;
+	height: 2.5rem;
+	border: 0.05rem solid #bcbcbc;
+	border-top: none;
+	font-size: 0.6rem;
+	color: #666666;
+	padding: 0.2rem;
+	position: relative;
+}
+.main .container .cont_f .imgbox2 a .info p{
+	line-height: 1rem;
+}
+.main .container .cont_f .imgbox2 a .info span{
+	display: block;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	position: absolute;
+	right:0.25rem;
+	padding-left: 0.375rem;
+	top:1rem;
+	background: url(../images/H5_03/jiantou.png) no-repeat left center;
+	background-size: 0.38rem 0.7rem;
+	overflow: hidden;
+}
+.main .container .cont_f .imgbox2 a .info span i{
+	height: 0.71rem;
+	padding: 0 0.2rem;
+	background-color: #62a8e3;
+	color: #fff;
+}
+.fs_container{
+		z-index:9999;
+		}
+.floatL .fs_title1{
+	color:#ff6d01;
+	}
+.floatL .fs_title2{
+	margin-top:0.5rem;
+	}

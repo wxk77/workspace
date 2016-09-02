@@ -1,0 +1,182 @@
+/* CSS Document */
+.banner{
+		width:100%;
+		height:704px;
+		background:url(../images/PC_11/banner.jpg) no-repeat;
+		background-size:100% 100%;
+		overflow:hidden;
+		}
+	.banner-temp{
+		width:1300px;
+		height:100%;
+		margin:0 auto;
+		overflow:hidden;
+		}
+	.banner-logo{
+		margin-top:58px;
+		width:auto;
+		height:auto;
+		overflow:hidden;
+		}
+	.bu{
+		width:166px;
+		height:42px;
+		margin-left:60px;
+		margin-top:35px;
+		overflow:hidden;
+		display:block;
+		}
+	.content-all{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		}
+	.item{
+		width:100%;
+		height:1901px;
+		overflow:hidden;
+		}
+	.bg1{
+		background:url(../images/PC_11/item1.jpg) no-repeat;
+		background-size:100% 100%;
+		}
+	.bg2{
+		background:url(../images/PC_11/item2.jpg) no-repeat;
+		background-size:100% 100%;
+		}
+	.bg3{
+		background:url(../images/PC_11/item3.jpg) no-repeat;
+		background-size:100% 100%;
+		}
+	.bg4{
+		background:url(../images/PC_11/item4.jpg) no-repeat;
+		background-size:100% 100%;
+		}
+	.temp{
+		width:1200px;
+		height:100%;
+		overflow:hidden;
+		margin:0 auto;
+		}
+	.temp-head{
+		width:100%;
+		height:670px;
+		overflow:hidden;
+		}
+	.title{
+		margin-top:230px;
+		}
+	.e-name{
+		font-size: 24px;
+		font-family: "PingFang";
+		color: #e9feff;
+		}
+	.c-name{
+		font-size: 48px;
+  		font-family: "PingFang";
+  		color: #e9feff;
+		margin-top:-11px;
+		}
+	.c-name label{
+		font-size: 40px;
+		}
+	.summary{
+		margin-top:5px;
+		}
+	.c-font{
+		font-size: 18px;
+		font-family: "PingFang";
+		color: #e9feff;
+		}
+	.e-font{
+		font-size: 14px;
+		font-family: "PingFang";
+		color:#e9feff;
+		width:300px;
+		line-height:14px;
+		}
+	.temp-detail{
+		width:1200px;
+		height:1170px;
+		background:#fff;
+		overflow:hidden;
+		}
+	.temp-detail ul{
+		width:1140px;
+		height:100%;
+		margin:0 auto;
+		overflow:hidden;
+		}
+	.temp-detail ul li{
+		width:555px;
+		height:540px;
+		float:left;
+		margin-right:29px;
+		margin-top:29px;
+		overflow:hidden;
+		}
+	.temp-detail ul li:nth-child(2n){
+		margin-right:0;
+		}
+	.temp-img{
+		width:555px;
+		height:440px;
+		}
+	.temp-gary{
+		width:555px;
+		height:100px;
+		background:#f8f8f8;
+		overflow:hidden;
+		}
+	.gary{
+		width:508px;
+		margin:0 auto;
+		height:100%;
+		overflow:hidden;
+		}
+	.gray-left{
+		width:290px;
+		height:50px;
+		float:left;
+		overflow:hidden;
+		margin-top:22px;
+		}
+	.name{
+		font-size: 18px;
+		font-family: "PingFang";
+		color: #666666;
+		}
+	.address{
+		font-size: 14px;
+		font-family: "PingFang";
+		color:#888888;
+		}
+	.gary-right{
+		height:40px;
+		width:175px;
+		float:right;
+		margin-top:29px;
+		}
+	.butie{
+		width:78px;
+		height:40px;
+		background:#019b9f;
+		line-height:40px;
+		text-align:center;
+		float:left;
+		font-size: 24px;
+		font-family: "PingFang";
+		color: #fff;
+		}
+	.money{
+		height:40px;
+		line-height:40px;
+		margin-left:12px;
+		font-size: 30px;
+		font-family: "PingFang";
+		color:#019b9f;
+		float:left;
+		}
+	.money>label{
+		font-size:18px;
+		}

@@ -1,0 +1,385 @@
+.theme{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    /*opacity:.80;*/
+    filter: alpha(opacity=80);
+    margin-top: 200px;
+    text-align:center;
+}
+
+.div2 {
+    position: absolute;
+    display: none;
+}
+
+div.theme a {
+    position: absolute;
+    right: 20%;
+    top: 12px;
+}
+.main{
+    width:1268px;
+    height:auto;
+    background:#fff;
+    margin:0 auto;
+    overflow:hidden;
+}
+.title{
+    width:1108px;
+    height:auto;
+    margin:29px auto 0 auto;
+    overflow:hidden;
+}
+.name{
+    width:auto;
+    float:left;
+    height:24px;
+    line-height:24px;
+    overflow:hidden;
+}
+.name em{
+    display:inline-block;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:#485a6e;
+}
+.name span{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #485a6e;
+    padding-left:15px;
+    font-weight:bold;
+}
+.search-all{
+    width:auto;
+    height:24px;
+    overflow:hidden;
+    float:right;
+}
+.item{
+    float:left;
+    height:24px;
+    line-height:24px;
+    margin-left:19px;
+}
+.item>span{
+    font-size: 12px;
+    font-family: "SimSun";
+    color: #485a6e;
+}
+.text{
+    display:inline-block;
+    width:86px;
+    height:22px;
+    border:1px solid #dbdbdb;
+    line-height:22px;
+    border-radius:3px;
+    font-size: 12px;
+    color: #485a6e;
+    text-indent:7px;
+    background:none;
+}
+
+table{
+    width:1112px;
+    height:auto;
+    border:1px solid #cbd7de;
+    margin:12px auto;
+    overflow:hidden;
+}
+table tr{
+    height:45px;
+}
+table tr th{
+    line-height:45px;
+    text-align:center;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    letter-spacing:1px;
+    background-color: #485a6e;
+}
+.table tr th:nth-child(1){
+    width:128px;
+}
+.table tr th:nth-child(2){
+    width:218px;
+}
+.table tr th:nth-child(3){
+    width:487px;
+}
+.table tr th:nth-child(4){
+    width:100px;
+}
+.table tr th:nth-child(5){
+    width:171px;
+}
+table tr td{
+    line-height:45px;
+    text-align:center;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #333333;
+}
+table tr:nth-child(even){
+    background:#fff;
+}
+table tr:nth-child(odd){
+    background:#f0f5f8;
+}
+
+table tr td span img{
+    vertical-align:middle;
+    cursor: pointer;
+}
+table tr td span:nth-child(2) img{
+    padding-left:28px;
+}
+table tr:hover {
+    background: #cad9ea;
+}
+table .counts {
+    cursor: pointer;
+}
+
+.right{
+    width:1690px;
+    height:1070px;
+    float:right;
+    overflow:hidden;
+}
+.head{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    overflow:hidden;
+    float:left;
+}
+.head>img{
+    width:100%;
+    height:100%;
+}
+
+.map{
+    width:1268px;
+    height:auto;
+    margin:22px auto;
+    overflow:hidden;
+    font-size: 14px;
+    font-family: "SimSun";
+    color:#4f4f4f;
+}
+.special>img{
+    vertical-align: middle;
+}
+.show>img{
+    vertical-align: middle;
+}
+.display-b{
+    display: block !important;
+}
+
+#nav-con .list{
+    display: none;
+}
+
+.list{
+    display: none;
+}
+
+a#logout:hover{
+    background: darkgray;
+    text-decoration: none;
+}
+.right .container {
+    width: 1516px;
+}
+.pagination{
+    width:auto;
+    height:auto;
+    float:left;
+    overflow:hidden;
+    border:1px solid #cbd7de;
+    border-radius:4px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+    border-left: 0px;
+}
+.pagination span{
+    border-left:1px solid  #cbd7de;
+    float:left;
+    color:rgba(0,51,153,1);
+    font-size:14px;
+    text-align:center;
+    line-height:27px;
+    display:block;
+}
+.next,.prev {
+    border-left:0px solid  #cbd7de;
+    width:50px;
+    height:27px;
+}
+.num,.last{
+    width:30px;
+    height:27px;
+}
+.fir {
+    border-left:0px solid  #cbd7de;
+    width:30px;
+    height:27px;
+}
+
+a.search {
+    width:38px;
+    height:24px;
+    display:block;
+    float:left;
+    margin-left:19px;
+    background-image: url(../images/search.png);
+}
+span.showDemo, span.preview{
+    width: 25px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../images/show.png);
+    cursor: pointer;
+}
+span.hideDemo {
+    background-image: url(../images/eyeclose.png);
+}
+span.create {
+    width: 15px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    background-image: url(../images/text.png);
+    cursor: pointer;
+}
+
+div.dialog {
+    z-index: 1000;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+    cursor: pointer;
+    position: fixed;
+    background: #d1d2d4;
+    display: none;
+}
+iframe {
+    background: #E6EAED;
+    width: 50%;
+    height: 100%;
+
+}
+iframe::-webkit-scrollbar {
+    display: none;
+}
+.table2{
+    width:1104px;
+    height:auto;
+    border:1px solid #cbd7de;
+    margin:12px auto;
+    overflow:hidden;
+}
+.table2 tr{
+    height:45px;
+}
+.table2 tr:nth-child(1){
+    background:#485a6e !important;
+}
+.table2 tr th{
+    line-height:45px;
+    text-align:center;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    letter-spacing:1px;
+}
+.table2 tr th:nth-child(1){
+    width:100px;
+}
+.table2 tr th:nth-child(2){
+    width:168px;
+}
+.table2 tr th:nth-child(3){
+    width:400px;
+}
+.table2 tr th:nth-child(4){
+    width:100px;
+}
+.table2 tr th:nth-child(5){
+    width:130px;
+}
+.table2 tr th:nth-child(6){
+    width:206px;
+}
+.table2 tr td{
+    line-height:45px;
+    text-align:center;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #333333;
+}
+.table2 tr:nth-child(2n){
+    background:#fff;
+}
+.table2 tr:nth-child(2n+1){
+    background:#f0f5f8;
+}
+
+.table2 tr td:nth-child(n){
+    font-size: 13px;
+}
+.table2 tr:hover {
+    background: #cad9ea;
+}
+span.add{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    margin-left: 5px;
+    display: inline-block;
+    background-image: url(../images/add.png);
+    cursor: pointer;
+}
+
+span.edit{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    display: inline-block;
+    background-image: url(../images/edit.png);
+    cursor: pointer;
+}
+
+span.preview{
+    width: 25px;
+    height: 15px;
+    margin-left: 5px;
+    display: inline-block;
+    background-image: url(../images/show.png);
+    cursor: pointer;
+}
+
+span.delete{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    display: inline-block;
+    background-image: url(../images/delete.png);
+    cursor: pointer;
+}

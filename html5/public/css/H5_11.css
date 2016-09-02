@@ -1,0 +1,185 @@
+/* CSS Document */
+section{
+		margin-top:30px;
+		}
+	header{
+		height:486px;
+		width:100%;
+		background:url(../images/H5_11/header.png) no-repeat;
+		background-size:100% 100%;
+		overflow:hidden;
+		position:relative;
+		}
+	.logo{
+		width:147px;
+		height:95px;
+		position:absolute;
+		left:26px;
+		top:19px;
+		}
+	.bu{
+		width:118px;
+		height:32px;
+		position:absolute;
+		left:46px;
+		top:145px;
+		display:block;
+		}
+	.bu>img{
+		width:100%;
+		height:100%;
+		}
+	body{
+		background:#e2e0e0;
+		}
+	.bg1{
+		width:100%;
+		height:1022px;
+		background:url(../images/H5_11/bg1.jpg) no-repeat;
+		background-size:100% 100%;
+		overflow:hidden;
+		}
+	.bg2{
+		width:100%;
+		height:1022px;
+		background:url(../images/H5_11/bg2.jpg) no-repeat;
+		background-size:100% 100%;
+		overflow:hidden;
+		}
+	.bg3{
+		width:100%;
+		height:1022px;
+		background:url(../images/H5_11/bg3.jpg) no-repeat;
+		background-size:100% 100%;
+		overflow:hidden;
+		}
+	.bg4{
+		width:100%;
+		height:1022px;
+		background:url(../images/H5_11/bg4.jpg) no-repeat;
+		background-size:100% 100%;
+		overflow:hidden;
+		}
+	.head{
+		width:100%;
+		height:338px;
+		overflow:hidden;
+		}
+	.head-one{
+		width:auto;
+		height:auto;
+		margin-left:25px;
+		margin-top:90px;
+		}
+	.head-one p:nth-child(1){
+		font-size: 24px;
+		font-family: "PingFang";
+		color: #fff;
+		}
+	.head-one p:nth-child(2){
+		font-size: 40px;
+		font-family: "PingFang";
+		color:#e9feff;
+		margin-top:-9px;
+		}
+	.head-one p:nth-child(2) label{
+		font-size:30px;
+		}
+	.head-two{
+		width:auto;
+		height:auto;
+		margin-left:25px;
+		}
+	.head-two p:nth-child(1){
+		font-size: 26px;
+		font-family: "PingFang";
+		color: #e9feff;
+		}
+	.head-two p:nth-child(2){
+		font-size: 22px;
+		font-family: "PingFang";
+		color:#e9feff;
+		width:340px;
+		line-height:25px;
+		}
+	.content{
+		width:585px;
+		height:684px;
+		margin:0 auto;
+		background:#fff;
+		overflow:hidden;
+		}
+	.content>ul{
+		width:555px;
+		height:660px;
+		margin:6px auto;
+		overflow:hidden;
+		}
+	.content>ul li{
+		float:left;
+		width:271px;
+		height:323px;
+		margin-right:13px;
+		margin-top:8px;
+		}
+	.content>ul li:nth-child(2n){
+		margin-right:0px;
+		}
+	.img{
+		width:269px;
+		height:213px;
+		border:1px solid #e0e3e6;
+		overflow:hidden;
+		}
+	.img>img{
+		width:100%;
+		height:100%;
+		}
+	.content-detail{
+		width:100%;
+		height:107px;
+		background:#f8f8f8;
+		overflow:hidden;
+		}
+	.d-one{
+		width:249px;
+		height:60px;
+		margin:5px auto;
+		overflow:hidden;
+		}
+	.d-one p:nth-child(1) a{
+		font-size: 22px;
+		font-family: "PingFang";
+		color:#666666;
+		}
+	.d-one p:nth-child(2) a{
+		font-size: 20px;
+		font-family: "PingFang";
+		color: #888888;
+		}
+	.d-two{
+		width:249px;
+		height:36px;
+		margin:0 auto;
+		}
+	.d-two p{
+		float:left;
+		height:26px;
+		line-height:26px;
+		margin-top:5px;
+		}
+	.d-two p:nth-child(1) a{
+		font-size: 20px;
+		font-family: "PingFang";
+		color:#fff;
+		width:50px;
+		text-align:center;
+		background:#019b9f;
+		display:block;
+		}
+	.d-two p:nth-child(2){
+		font-size: 24px;
+		font-family: "PingFang";
+		color: #019b9f;
+		margin-left:5px;
+		}

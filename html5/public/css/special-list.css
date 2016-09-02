@@ -1,0 +1,304 @@
+.theme{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 60%;
+    height: 100%;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    /*opacity:.80;*/
+    filter: alpha(opacity=80);
+    margin-top: 200px;
+    text-align:center;
+}
+.div2{position:absolute;display:none;}
+div.theme a {
+    position: absolute;
+    right: 20%;
+    top: 12px;
+}
+.main{
+    width:1268px;
+    height:800px;
+    background:#fff;
+    margin:0 auto;
+    overflow:hidden;
+}
+.title{
+    width:1108px;
+    height:auto;
+    margin:29px auto 0 auto;
+    overflow:hidden;
+}
+.name{
+    width:auto;
+    float:left;
+    height:24px;
+    line-height:24px;
+    overflow:hidden;
+}
+.name em{
+    display:inline-block;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:#485a6e;
+}
+.name span{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #485a6e;
+    padding-left:15px;
+    font-weight:bold;
+}
+.search-all{
+    width:auto;
+    height:24px;
+    overflow:hidden;
+    float:right;
+}
+.item{
+    float:left;
+    height:24px;
+    line-height:24px;
+    margin-left:19px;
+}
+.item>span{
+    font-size: 12px;
+    font-family: "SimSun";
+    color: #485a6e;
+}
+.text{
+    display:inline-block;
+    width:86px;
+    height:22px;
+    border:1px solid #dbdbdb;
+    line-height:22px;
+    border-radius:3px;
+}
+.text>input{
+    font-size: 12px;
+    font-family: "SimSun";
+    color: #485a6e;
+    line-height:22px;
+    width:100%;
+    height:22px;
+    border:none;
+    text-indent:7px;
+    background:none;
+}
+.search{
+    width:38px;
+    height:24px;
+    display:block;
+    float:left;
+    margin-left:19px;
+}
+table{
+    width:1104px;
+    height:auto;
+    border:1px solid #cbd7de;
+    margin:12px auto;
+    overflow:hidden;
+}
+table tr{
+    height:45px;
+}
+table tr th{
+    line-height:45px;
+    text-align:center;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    letter-spacing:1px;
+    background:#485a6e
+}
+table tr th:nth-child(1){
+    width:128px;
+}
+table tr th:nth-child(2){
+    width:128px;
+}
+table tr th:nth-child(3){
+    width:478px;
+}
+table tr th:nth-child(4){
+    width:100px;
+}
+table tr th:nth-child(5){
+    width:110px;
+}
+table tr th:nth-child(6){
+    width:150px;
+}
+table tr td{
+    line-height:17px;
+    text-align:center;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #333333;
+}
+table tr:nth-child(2n){
+    background:#fff;
+}
+table tr:nth-child(2n+1){
+    background:#f0f5f8;
+}
+table tr td a img{
+    vertical-align:middle;
+}
+table tr td a:nth-child(2) img{
+    padding-left:15px;
+}
+table tr td a:nth-child(3) img{
+    padding-left:15px;
+}
+table tr td a:nth-child(4) img{
+    padding-left:15px;
+}
+table tr:nth-child(even){
+    background:#fff;
+}
+table tr:nth-child(odd){
+    background:#f0f5f8;
+}
+table tr:hover {
+    background: #cad9ea;
+}
+.all{
+    width:1920px;
+    height:auto;
+    overflow:hidden;
+    background:#e6eaed;
+}
+.left{
+    width:230px;
+    height:665px;
+    float:left;
+}
+.right{
+    width:1690px;
+    height:1070px;
+    float:right;
+    overflow:hidden;
+}
+.top{
+    width:100%;
+    height:123px;
+    background:#485a6e;
+    overflow:hidden;
+}
+.bottom{
+    height:542px;
+    width:100%;
+    background:#222c32;
+    overflow:hidden;
+}
+.top-detail{
+    width:187px;
+    height:80px;
+    margin:23px auto 0 auto;
+    overflow:hidden;
+}
+.head{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    overflow:hidden;
+    float:left;
+}
+.head>img{
+    width:100%;
+    height:100%;
+}
+.detail{
+    width:102px;
+    height:80px;
+    float:right;
+    overflow:hidden;
+    text-align:center;
+}
+.detail>p{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color:#fff;
+    margin-top: 10px;
+}
+.detail>a{
+    width:62px;
+    height:21px;
+    text-align:center;
+    line-height:21px;
+    display:block;
+    background:#8c8b8b;
+    color:#f54d4d;
+    font-size: 12px;
+    font-family: "SimSun";
+    margin-left: 21px;
+    margin-top: 10px;
+}
+.bottom ul{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.bottom ul li{
+    width:227px;
+    border-left:3px solid #3c80b9;
+    height:42px;
+    background:#1e282c;
+}
+.font{
+    width:185px;
+    height:42px;
+    text-align:center;
+    line-height:42px;
+    float:left;
+    cursor: pointer;
+}
+.font>img{
+    vertical-align:middle;
+}
+.font>span{
+    vertical-align:middle;
+    font-size: 14px;
+    font-family: "SimSun";
+    color:#fff;
+    padding-left:13px;
+}
+.show{
+    display:block;
+    width:30px;
+    height:42px;
+    float:right;
+    line-height:42px;
+    vertical-align:middle;
+}
+.show>img{
+
+    vertical-align: middle;
+}
+.special{
+    display: block;
+    width: 30px;
+    height: 42px;
+    float: right;
+    line-height: 42px;
+    vertical-align: middle;
+}
+.special>img{
+    vertical-align: middle;
+}
+.map{
+    width:1268px;
+    height:auto;
+    margin:22px auto;
+    overflow:hidden;
+    font-size: 14px;
+    font-family: "SimSun";
+    color:#4f4f4f;
+}
+.click-color{
+    background: #2c3a40 !important;
+}

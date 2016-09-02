@@ -1,0 +1,173 @@
+
+.all {
+    width: 1920px;
+    height: auto;
+    overflow: hidden;
+    background: #e6eaed;
+}
+.all .left {
+    width:230px;
+    height:665px;
+    float:left;
+}
+.all .left .top {
+    width:100%;
+    height:123px;
+    background:#485a6e;
+    overflow:hidden;
+}
+
+.all .left .top .top-detail {
+    width:187px;
+    height:80px;
+    margin:23px auto 0 auto;
+    overflow:hidden;
+}
+
+.all .left .top .top-detail .head {
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    overflow:hidden;
+    float:left;
+}
+
+.all .left .top .top-detail .head img {
+    width:100%;
+    height:100%;
+}
+
+.all .left .top .top-detail .detail {
+    width:102px;
+    height:80px;
+    float:right;
+    overflow:hidden;
+    text-align:center;
+}
+
+.all .left .top .top-detail .detail p {
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color:#fff;
+    margin-top: 10px;
+}
+
+.all .left .top .top-detail .detail a {
+    width:62px;
+    height:21px;
+    text-align:center;
+    line-height:21px;
+    display:block;
+    background:#8c8b8b;
+    color:#f54d4d;
+    font-size: 12px;
+    font-family: "SimSun";
+    margin-left: 21px;
+    margin-top:  10px;
+}
+
+.all .left .bottom{
+    height:967px;
+    width:100%;
+    background:#222c32;
+    overflow:hidden;
+}
+
+.all .left .bottom ul{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.all .left .bottom ul>li{
+    width:230px;
+    z-index:100;
+    height:auto;
+    background:#1e282c;
+    overflow: hidden;
+    position: relative;
+}
+
+.all .left .bottom #nav li{
+    width: 100%;
+    height:42px;
+    float:left;
+    cursor: pointer;
+    border-left:3px solid #3c80b9;
+    cursor: pointer;
+    display: inline;
+}
+
+.all .left .bottom ul .click-color{
+    background: #2c3a40 !important;
+}
+
+.all .left .bottom #nav li span.logo {
+    width: 10%;
+    height: 42px;
+    display: block;
+    float:left;
+    margin-left: 50px;
+}
+
+.all .left .bottom #nav li:nth-child(1) span.logo {
+    background: url(../images/2.png) no-repeat left 0 top 14px;
+}
+
+.all .left .bottom #nav li:nth-child(2) span.logo {
+    background: url(../images/star.png) no-repeat left 0 top 14px;
+}
+
+.all .left .bottom #nav li span.menu {
+    width: 80px;
+    height: 42px;
+    line-height: 44px;
+    text-align: left;
+    display: block;
+    float:left;
+    font-size: 14px;
+    font-family: "SimSun";
+    color:#fff;
+    margin-left: 5px;
+    letter-spacing:1px
+}
+
+.all .left .bottom #nav li span.arrow {
+    width: 15px;
+    height: 42px;
+    display: block;
+    float: right;
+    margin-right: 20px;
+    background: url(../images/3.png) no-repeat left 0 top 15px;
+}
+
+.all .left .bottom #nav li span.down{
+    background: url(../images/xiala.png) no-repeat left 0 top 18px;
+}
+
+.all .left .bottom #nav li span .second-ul{
+    width:100%;
+    height: auto;
+    overflow: hidden;
+    background: #485a6e;
+    display: none;
+}
+.all .left .bottom #nav li span .second-ul>li{
+
+    width:100%;
+    height: auto;
+    overflow: hidden;
+}
+.all .left .bottom #nav li span .second-ul>li>a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: "SimSun";
+    color:#fff;
+    border-bottom:1px solid #1e282c;
+    text-decoration:none;
+}
+
