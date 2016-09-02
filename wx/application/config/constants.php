@@ -94,7 +94,5 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 */
 defined('APP_BASE_URL')        OR define('APP_BASE_URL', 'http://t-app.svc.mc.cc/json/');  // the base uri of app
 defined('APP_ID')              OR define('APP_ID', '10001'); // APP ID
-defined('APP_VERSION')         OR define('APP_VERSION', '3.0.0'); // APP VERSION NUMBER
-defined('ENTITY_TYPE')         OR define('ENTITY_TYPE', 1); // the type of entity 1: shop
 defined('CLIENT_SECRET')       OR define('CLIENT_SECRET', 'XoxTJAkcS0TbXWdj2w0rFerozQ9xX3zW');  // Md5 secret for APP request
 defined('PAGE_SIZE')           OR define('PAGE_SIZE', 1);

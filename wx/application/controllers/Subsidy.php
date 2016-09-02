@@ -49,4 +49,5 @@ class Subsidy extends CI_Controller
         $detail = $result['SubsidyInfo'];
         $this->load->view('subsidy/detail', array('detail'=>$detail));
     }
+
 }

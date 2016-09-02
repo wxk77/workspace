@@ -9,9 +9,6 @@ nav{
 	border-top: 0.05rem solid #dddddd;
 	border-bottom: 0.05rem solid #dddddd;
 	line-height: 2.2rem;
-	position: relative;
-	z-index: 9999;
-	background-color: #fff;
 }
 nav .list{
 	-webkit-box-flex: 1;
@@ -31,8 +28,12 @@ nav .list span{
 }
 section{
 	width: 100%;
-	display: none;
+	/*display: none;*/
 }
+section:nth-of-type(2){
+	display: block;
+}
+
 section .pic_box{
 	width: 100%;
 	height: 11.25rem;
@@ -404,44 +405,4 @@ section .param p:after{
 	border-radius: 0.2rem;
 	color: #5ed2e1;
 }
-.wrapper {
-	position:absolute; 
-	z-index:1;
-	top:0;
-	left:0px;
-	bottom:0;
-	width:16rem;
-	overflow:auto;
-}
-.thelist{
-	min-height: 90vh;
-}
-.scroller {
-	position:absolute; z-index:1;
-	-webkit-tap-highlight-color:rgba(0,0,0,0);
-	width:100%;
-	padding:0;
-}
-#pullDown,#pullUp,#pullDown2,#pullUp2 {
-	background:#fff;
-	height:2.25rem;
-	line-height:2.25rem;
-	text-align: center;
-}
-.load{
-    position: fixed;
-    box-sizing: border-box;
-    padding: 0.175rem 0.3375rem;
-    width: 3.3rem;
-    height: 3.3rem;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 0.3rem;
-    z-index: 2000;
-}
-.load img{
-    width: 2.625rem;
-    height: 2.95rem;
-}
+

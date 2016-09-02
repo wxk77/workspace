@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://t-wx.mc.cc';
+$config['base_url'] = 'http://wx.mc.cc';
 //$config['base_url'] = 'http://192.168.2.41:8080/';
 
 

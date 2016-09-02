@@ -22,7 +22,7 @@ class Shop extends CI_Controller
         $userid = FALSE !== $is_login ? $this->session->userdata('userid') : 0;
 
         // Fetch shop base information.
-        $result = $this->api->GetShopInfo($shopid, $userid);
+        $result = $this->api->GetShopInfo($shopid);
         if (isset($result['error'])) {
             show_error($result['error']);
         }
@@ -36,14 +36,14 @@ class Shop extends CI_Controller
         $subsidy = $result;
 
         // ShopDiscussCount
-        $result = $this->api->GetTuGouDiscussListV2($shopid, FALSE, array('Size'=>3));
+        $result = $this->api->GetTuGouDiscussListV2($shopid, array('Size'=>3));
         if (isset($result['error'])) {
             show_error($result['error']);
         }
         $discuss = $result;
 
         // ShopDealKoubeiCount
-        $result = $this->api->SearchDealKouBei($shopid, array('Size'=>2));
+        $result = $this->api->SearchDealKouBei($shopid, array('Size'=>3));
         if (isset($result['error'])) {
             show_error($result['error']);
         }
@@ -105,7 +105,7 @@ class Shop extends CI_Controller
     public function discussSearch($shopid, $index = 1, $size = PAGE_SIZE)
     {
         $search = array('Index'=>$index, 'Size'=>$size);
-        $result = $this->api->GetTuGouDiscussListV2($shopid, FALSE, $search);
+        $result = $this->api->GetTuGouDiscussListV2($shopid, $search);
         $list = $result['TuGouDiscussInfoList'];
         foreach ($list as $key=>$item) {
             $list[$key]['CreateAt'] =  date('y-m-d H:i:s', substr($item['CreateAt'], 6, 10));
@@ -140,40 +140,6 @@ class Shop extends CI_Controller
         }
         $result = $this->api->UserAddShopHusheng($shopid, $userid, $type);
         echo json_encode($result);
-    }
-
-    /**
-     * The detail of comment.
-     */
-    public function comment()
-    {
-        preg_match_all('/<img src=\"(?<m>.*)\"/iU', $_COOKIE['images'], $matches);
-
-        $data = array(
-            'stars'   => trim($_COOKIE['stars']),
-            'content' => trim($_COOKIE['content']),
-            'images'  => $matches['m'],
-            'title'   => trim($_COOKIE['shopname']),
-            'tugou'  => trim($_COOKIE['tugouid'])
-        );
-        $this->load->view('shop/commentDetail', array('data'=>$data));
-    }
-
-    /**
-     * Knockdown commit
-     */
-    public function knockdown()
-    {
-        preg_match_all('/<img src=\"(?<m>.*)\"/iU', $_COOKIE['images'], $matches);
-
-        $data = array(
-            'title'   => trim($_COOKIE['title']),
-            'content' => trim($_COOKIE['content']),
-            'building' => trim($_COOKIE['building']),
-            'createtime' => trim($_COOKIE['createtime']),
-            'images'  => $matches['m'],
-        );
-        $this->load->view('shop/knockdown', array('data'=>$data));
     }
 
 }

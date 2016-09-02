@@ -18,23 +18,6 @@ if ( ! function_exists('check_login'))
     }
 }
 
-if ( ! function_exists('get_userid'))
-{
-    /**
-     * Get login user id.
-     */
-    function get_userid()
-    {
-        // Check user login
-        $is_login = check_login();
-        if (FALSE === $is_login) {
-            header('Location: '. site_url('user/login'));
-        }
-        $CI =& get_instance();
-        return $CI->session->userdata('userid');
-    }
-}
-
 if ( ! function_exists('show_error'))
 {
     /**

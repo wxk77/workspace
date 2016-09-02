@@ -14,12 +14,7 @@
     <script src="/public/js/swiper.min.js"></script>
 
     <script src="/public/js/script.js"></script>
-    <script>
-        function down(){
-            window.location.href='http://a.app.qq.com/o/simple.jsp?pkgname=cc.mc.mcf';
-            return;
-        }
-    </script>
+
 </head>
 
 <body>
@@ -31,7 +26,7 @@
         </div>
         <ul class="explain">
             <li>
-                <span>仅限&nbsp;<?=$detail['ShopName']?>;</span>
+                <span>仅限&nbsp;大自然地板马会家居店;</span>
             </li>
             <li>
                 <span>仅限&nbsp;一张订单使用;</span>
@@ -49,8 +44,8 @@
 <section>
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <?php foreach($detail['Ads'] as $image): ?>
-            <div class="swiper-slide"><a href="<?=$image['Href']?>"><img src="<?=$image["ImageUrl"]?>" /></a></div>
+            <?php foreach($detail['LogoUrls'] as $image): ?>
+            <div class="swiper-slide"><img src="<?=$image?>" /></div>
             <?php endforeach; ?>
         </div>
         <!-- 圆点容器 -->
@@ -59,14 +54,14 @@
 </section>
 <div class="relation">
     <div class="relation-detail">
-        <a href="/shop/detail/<?=$detail['ShopId']?>" class="go"><img src="/public/images/Money-subsidy/go.png" /></a>
-        <span><a href="/shop/detail/<?=$detail['ShopId']?>"><?=show_replay_text($detail['ShopName'], 13)?></a></span>
-        <a href="tel:<?=$detail['ShopTelephone']?>" class="tel"></a>
-<!--        <a href="#" class="mail"></a>-->
+        <span><?=$detail['ShopName']?></span>
+        <a href="#" class="tel"></a>
+        <a href="#" class="mail"></a>
     </div>
+    <a href="#" class="go"><img src="/public/images/Money-subsidy/go.png" /></a>
 </div>
 <footer>
-    <a href="#" onclick="down()">下载寻物鼠，获取<?=$detail['Value']?>元补贴</a>
+    <a href="#">立刻使用</a>
 </footer>
 </body>
 </html>

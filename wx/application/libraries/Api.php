@@ -57,7 +57,12 @@ class Api
             'CityRegionIds' => array(),
             'IndustryIds'   => array(),
             'Key'           => '',
-            'PagingSetting' => $this->_page_setting(array('Index'=>$index)),
+            'PagingSetting' => array(
+                'Direction' => 0,
+                'Index'     => $index,
+                'OrderBy'   => 0,
+                'Size'      => 20,
+            ),
             'SubsidyMaxValue' => 0.0,
             'SubsidyMinValue' => 0.0,
             'CityId'        => 1,
@@ -90,7 +95,12 @@ class Api
     public function SearchTuGouList($index)
     {
         $body = array(
-            'PagingSetting' => $this->_page_setting(array('Index'=>$index)),
+            'PagingSetting' => array(
+                'Direction' => 0,
+                'Index'     => $index,
+                'OrderBy'   => 0,
+                'Size'      => 20,
+            ),
             'BId'           => 0,
             'CategoryId'    => 0,
             'CityId'        => 1,
@@ -183,14 +193,13 @@ class Api
     /**
      * Get base information of shop.
      * @param int $shopid
-     * @param int $userid
      * @return bool | array
      */
-    public function GetShopInfo($shopid, $userid = 0)
+    public function GetShopInfo($shopid)
     {
         $body = array(
             'ShopId' => $shopid,
-            'UserId' => $userid,
+            'UserId' => 0,
         );
 
         $result = $this->_request(__FUNCTION__, $body);
@@ -231,32 +240,27 @@ class Api
 
     /**
      * Get Discuss Count.
-     * @param  int       $id  shopid OR tugouid
-     * @param  bool      $isTugou false: shop discuss, true : tugou discuss
+     * @param  int       $shopid
      * @param  array     $page
      * @return bool | array
      */
-    public function GetTuGouDiscussListV2($id, $isTugou = FALSE, $page = array())
+    public function GetTuGouDiscussListV2($shopid, $page = array())
     {
-        if (FALSE !== $isTugou) {
-            $body = array(
-                'PagingSetting' => $this->_page_setting($page),
-                'UserId' => 0,
-                'TuGouId' => $id,
-                "IsUserDiscussGoods" => 1
-            );
-        } else {
-            $body = array(
-                'PagingSetting' => $this->_page_setting($page),
-                'ShopId' => $id
-
-            );
-        }
-
+        $body = array(
+            'PagingSetting' => $this->_page_setting($page),
+            'CreateUserId' => 0,
+            'DiscussId'    => 0,
+            'GoodsId'      => 0,
+            'IsShowPicComment'   => 0,
+            'IsUserDiscussGoods' => 0,
+            'MallId' => 0,
+            'ShopId' => $shopid,
+            'TuGouId'=> 0,
+            'UserId' => 0
+        );
         $result = $this->_request(__FUNCTION__, $body);
         return $result;
     }
-
 
     /**
      * Get KouBei List.
@@ -272,40 +276,6 @@ class Api
             'MallId' => 0,
             'ShopId' => $shopid,
             'UserId' => -1
-        );
-        $result = $this->_request(__FUNCTION__, $body);
-        return $result;
-    }
-
-    /**
-     * Create Favor
-     * @param int $userid
-     * @param int $shopid
-     * @return array
-     */
-    public function CreateFavor($shopid, $userid)
-    {
-        $body = array(
-            'UserId'     => $userid,
-            'EntityType' => ENTITY_TYPE,
-            'EntityId'   => $shopid,
-        );
-        $result = $this->_request(__FUNCTION__, $body);
-        return $result;
-    }
-
-    /**
-     * Cancel Favor
-     * @param int $userid
-     * @param int $shopid
-     * @return array
-     */
-    public function CancelFavor($shopid, $userid)
-    {
-        $body = array(
-            'UserId'     => $userid,
-            'EntityType' => ENTITY_TYPE,
-            'EntityId'   => $shopid,
         );
         $result = $this->_request(__FUNCTION__, $body);
         return $result;
@@ -340,7 +310,7 @@ class Api
                 'md5' => $this->_md5($function, $body, $timestamp),
                 'sessionId' => '',
                 'timestamp' => $timestamp,
-                'version' => APP_VERSION,
+                'version' => '2.9.9'
             ),
         );
 

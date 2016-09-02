@@ -36,7 +36,7 @@ class User extends CI_Controller
         $user_id = $result['UserBasicInfo']['Id'];
         $this->session->set_userdata('token', $token_info['Token']);
         $this->session->set_userdata('expire', str_to_time($token_info['ExpirationTime']));
-        $this->session->set_userdata('userid', $user_id);
+        $this->session->set_userdata('usesid', $user_id);
 
         echo json_encode($result);
     }
@@ -55,70 +55,5 @@ class User extends CI_Controller
         }
     }
 
-    /**
-     * Create Favor
-     * @param int $shopid
-     * @return JSON
-     */
-    public function createFavor($shopid)
-    {
-        $userid = get_userid();
-        if ( ! is_numeric($shopid) OR $shopid < 1 ) {
-            $response = array(
-                'success' => 0,
-                'error'   => '请输入合法的店铺编号'
-            );
-            return json_encode($response);
-        }
-
-        $result = $this->api->createFavor($shopid, $userid);
-        if (isset($result['error'])) {
-            $response = array(
-                'success' => 0,
-                'error'   => $result['error']
-            );
-            return json_encode($response);
-        }
-
-        $response = array(
-            'success' => 1,
-            'body' => $result,
-        );
-        echo json_encode($response);
-        return json_encode($response);
-    }
-
-    /**
-     * Create Favor
-     * @param int $shopid
-     * @return JSON
-     */
-    public function cancelFavor($shopid)
-    {
-        $userid = get_userid();
-        if ( ! is_numeric($shopid) OR $shopid < 1 ) {
-            $response = array(
-                'success' => FALSE,
-                'error'   => '请输入合法的店铺编号'
-            );
-            return json_encode($response);
-        }
-
-        $result = $this->api->cancelFavor($shopid, $userid);
-        if (isset($result['error'])) {
-            $response = array(
-                'success' => FALSE,
-                'error'   => $result['error']
-            );
-            return json_encode($response);
-        }
-
-        $response = array(
-            'success' => TRUE,
-            'body' => $result,
-        );
-        echo json_encode($response);
-        return json_encode($response);
-    }
 
 }

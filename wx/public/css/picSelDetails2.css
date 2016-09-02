@@ -24,7 +24,7 @@ section{
 	width: 100vw;
 	height: 100vh;
 	position: absolute;
-	background-color: rgba(0,0,0,0.7);
+	/*background-color: rgba(0,0,0,0.7);*/
 }
 .main .mui-slider .mui-slider-group .mui-slider-item .img_box img{
 	position: absolute;
@@ -72,7 +72,7 @@ section{
 	background: url(../images/star2.png) no-repeat center bottom;
 	background-size:0.75rem 1.5rem ;
 }
-.main .mui-slider .mui-slider-group .mui-slider-item .details .de_f .star span.light{
+.main .mui-slider .mui-slider-group .mui-slider-item .details .de_f .star span.checked{
 	background-position: center top;
 }
 .main .mui-slider .mui-slider-group .mui-slider-item .details .de_f a{

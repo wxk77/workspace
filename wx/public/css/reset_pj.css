@@ -8,7 +8,7 @@ html{-overflow-y:scroll}
 body{color:#666;background:#fff;font-size:0.7rem;line-height:1.6}
 body,input,textarea{font-family:simhei, verdana, "Hiragino Sans GB";}
 header,footer,section,aside,article,nav,hgroup,figure,figcaption,
-body,h1,h2,h3,h4,h5,h6,ul,ol,li,form,p,dl,dt,dd,blockquote,legend,table,th,td,fieldset,menu,pre{margin:0;padding:0;}
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,form,p,dl,dt,dd,blockquote,legend,table,th,td,fieldset,menu,pre{margin:0;padding:0}
 table,th,td,img,fieldset{border:0}
 time,mark,output,meter,
 address,cite,em,code,var,dfn,ins,i,th,caption{font-style:normal;text-decoration:none}
@@ -23,4 +23,3 @@ header,footer,section,aside,article,nav,hgroup,figure,figcaption{display:block}
 a{color:#3399ff; text-decoration: none; outline: none;}
 /*a:hover{text-decoration: underline;}*/
 img{display: block;border:0;}
-li{list-style: none;}

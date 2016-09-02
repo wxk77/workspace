@@ -50,19 +50,11 @@ class Tugou extends CI_Controller
         if (FALSE === $result OR isset($result['error'])) {
             return;
         }
-        $total_reply = ceil( $result['RecordCount'] / PAGE_SIZE);
+
         $reply = $result['TGReplyInfoList'];
 
-        $result = $this->api->GetTuGouDiscussListV2($tugou_id, TRUE);
-        $total_discuss = ceil( $result['Count'] / PAGE_SIZE);
 
-        $this->load->view('tugou/detail', array(
-            'detail'        =>$detail,
-            "reply"         =>$reply,
-            'total_reply'   =>$total_reply,
-            'total_discuss' =>$total_discuss,
-            'tugou_id'      =>$tugou_id
-        ));
+        $this->load->view('tugou/detail', array('detail'=>$detail,"reply"=>$reply));
     }
 
 
@@ -82,34 +74,7 @@ class Tugou extends CI_Controller
 
     /**
      * fetch list of Reply
-     * @param $tugou_id
+     * @param $index
      */
-    public function replyList($tugou_id)
-    {
 
-        $result = $this->api->GetTuGouReplyList($tugou_id);
-        $reply = $result['TGReplyInfoList'];
-        foreach ($reply as $key=>$item){
-            $reply[$key]['GName'] =show_replay_text($item['GName'],8);
-            $reply[$key]['SName'] =show_replay_text($item['SName'],10);
-
-        }
-
-        echo json_encode($reply);
-    }
-
-    /**
-     * fetch list of discuss
-     * @param $tugou_id
-     */
-    public function discuss($tugou_id)
-    {
-
-        $result = $this->api->GetTuGouDiscussListV2($tugou_id, TRUE);
-        $discuss = $result['TuGouDiscussInfoList'];
-        foreach ($discuss as $key=>$item){
-            $discuss[$key]['CreateAt'] =  date('y-m-d H:i:s', substr($item['CreateAt'], 6, 10));
-        }
-        echo json_encode($discuss);
-    }
 }

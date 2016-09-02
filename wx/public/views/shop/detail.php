@@ -10,67 +10,19 @@
     <script src="/public/js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="/public/js/swiper-3.3.1.min.js"></script>
     <script src="/public/js/shopDetails.js"></script>
-    <script src="/public/js/share-jquery-1.7.js"></script>
-    <script src="/public/js/jquery.cookie.js"></script>
     <script>
         var is_login = false;
         var user_id = 0;
-        var is_favor = false;
-        var shopid = <?=$info['Id']?>;
         <?php if($is_login): ?>
             is_login = true;
-            user_id = <?=$userid?>;
-        <?php endif; ?>
-        <?php if($info['IsFavor'] > 0): ?>
-        is_favor = true;
+            user_id = <?=$userid?>
         <?php endif; ?>
         var shop_latitude = <?=$info['Latitude']?>;
         var shop_logitude = <?=$info['Logitude']?>;
     </script>
 </head>
-
 <body>
 <section>
-	<!--分享-->
-    <script type="text/javascript">
-        function toshare(){
-            $(".am-share").addClass("am-modal-active");
-            if($(".sharebg").length>0){
-                $(".sharebg").addClass("sharebg-active");
-            }else{
-                $("body").append('<div class="sharebg"></div>');
-                $(".sharebg").addClass("sharebg-active");
-            }
-            $(".sharebg-active,.share_btn").click(function(){
-                $(".am-share").removeClass("am-modal-active");
-                setTimeout(function(){
-                    $(".sharebg-active").removeClass("sharebg-active");
-                    $(".sharebg").remove();
-                },300);
-            })
-        }
-    </script>
-
-    <div class="share">
-		<a href="#"><img src="/public/images/duihua.png" alt="" /><i>11</i></a>
-		<a href="#" id="favor"><img id="favorPNG" src="<?php echo $info['IsFavor'] > 0 ? '/public/images/shoucang2.png' : '/public/images/shoucang.png'?>" alt="" /></a>
-		<a class="fenxiang" href="javascript:;" onclick="toshare()"><img src="/public/images/fenxiang.png" alt="" /></a>
-	</div>
-	<div class="am-share">
-	 	<h3 class="am-share-title">分享到</h3>
-	  	<ul class="am-share-sns">
-			<div class="jiathis_style_32x32">
-			    <li><a class="jiathis_button_tsina " title="分享到微博"></a> </li>
-			    <li><a class="jiathis_button_cqq" title="分享到QQ"></a> </li>
-			    <li><a class="jiathis_button_weixin" title="分享到微信"></a></li>
-			    <li><a class="jiathis_button_qzone" title="分享到朋友圈"></a> </li>
-			</div>
-	  	</ul>
-	  	<div class="share_title">
-	  		<span>微博</span><span>QQ</span><span>微信</span><span>QQ空间</span></div>
-	  	<div class="am-share-footer"><button class="share_btn">取消</button></div>
-	</div>
-
     <!--轮播图-->
     <div class="swiper-container head_banner">
         <div class="swiper-wrapper">
@@ -159,9 +111,9 @@
     <!--有补贴-->
     <div class="subsidy">
         <div class="subsidy_s">
-            <div  id="subsidy" class="swiper-wrappers">
+            <div class="swiper-wrapper">
                 <?php foreach($subsidy['SubsidyInfos'] as $key=>$item): ?>
-                <div class="swiper-slides" data-id="<?=$item['Id']?>">
+                <div class="swiper-slides">
                     <?php if($item['IsBuy'] > 0):?>
                         <div class="no_subsidy sold">
                             <div class="subsidy_l">
@@ -267,11 +219,9 @@
             <div class="no_p">暂无逛店口碑</div>
         <?php else: ?>
         <div class="swiper-container stroll_nav">
-            <div id="current" class="swiper-wrapper">
+            <div class="swiper-wrapper">
                 <?php foreach($discuss['TuGouDiscussInfoList'] as $item): ?>
                 <div class="swiper-slide">
-                    <span class="shopname" style="display: none;"><?=$item['ShopName']?></span>
-                    <span class="tugouid" style="display: none;"><?=$item['TuGouId']?></span>
                     <div class="str_h">
                         <div class="star">
                             <?php for($i=0;$i<$item['Level'];$i++){?>
@@ -335,21 +285,19 @@
                         <p><span>逛店口碑(<?=$item['DiscussCount']?>)</span><span>成交口碑(<?=$item['DealKoubeiCount']?>)</span></p>
                     </div>
                 </div>
-                <div class="simple">
-                    <div class="pl_h">
-                        <?=$item['Title']?>
-                    </div>
-                    <div class="pic_group">
-                        <?php foreach($item['Paragraphs'] as $key=>$paragraph): ?>
-                        <?php if($key < 4):?>
-                        <img src="<?=$paragraph['ImageUrl']?>" alt="" />
-                        <?php endif;?>
-                        <?php endforeach; ?>
-                    </div>
-                     <div class="pl">
-                        <?=$item['Paragraphs'][0]['Content']?>
-                    </div>
-                 </div>
+				<div class="pl_h">
+                    <?=$item['Title']?>
+        		</div>
+                <div class="pic_group">
+                    <?php foreach($item['Paragraphs'] as $key=>$paragraph): ?>
+                    <?php if($key < 4):?>
+                    <img src="<?=$paragraph['ImageUrl']?>" alt="" />
+                    <?php endif;?>
+                    <?php endforeach; ?>
+                </div>
+				 <div class="pl">
+                    <?=$item['Paragraphs'][0]['Content']?>
+                </div>
             </div>
             <div class="str_h">
                 <div class="star">
@@ -384,7 +332,6 @@
         </div>
     </div>
 </div>
-<div class="textview">收藏成功</div>
 <script>
     function addCalling(shopid, userid, type){
         $.ajax({
@@ -406,6 +353,5 @@
         })
     }
 </script>
-<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
 </body>
 </html>
