@@ -1,0 +1,158 @@
+/* CSS Document */
+
+@font-face{
+		font-family: "MFYueHei_Noncommercial";
+		src:url('../font/MFYueHei_Noncommercial.otf') format('opentype');
+		font-weight:normal;
+		font-style:normal;
+		}
+	body,html{width:100%;height:100%;}
+	.main{
+		width:100%;
+		height:100%;
+		overflow:hidden;
+		background:url(../images/bg.png) no-repeat;
+		background-size:100% 100%;
+		}
+	.logo{
+		margin:104px auto 59px auto;
+		width:105px;
+		height:118px;
+		overflow:hidden;
+		}
+	.edit{
+		width:89.6875%;
+		height:auto;
+		margin:0 auto;
+		overflow:hidden;
+		}
+	.shuru{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		border-radius:10px;
+		background:#fff;
+		position:relative;
+		}
+	.shuru>input{
+		font-size: 28px;
+		font-family: "MFYueHei_Noncommercial";
+		color: #999999;
+		letter-spacing:2px;
+		}
+	.text{
+		width:100%;
+		height:100px;
+		overflow:hidden;
+		border:none;
+		background:none;
+		text-indent:22px;
+		line-height:100px;
+		}
+	.pwd{
+		width:100%;
+		height:99px;
+		overflow:hidden;
+		border:none;
+		background:none;
+		border-top:1px solid #dfdfdf;
+		text-indent:22px;
+		line-height:99px;
+		}
+	.show-pwd{
+		position:absolute;
+		right:24px;
+		bottom:38px;
+		}
+	.tijiao{
+		width:100%;
+		height:94px;
+		margin-top:41px;
+		overflow:hidden;
+		border-radius:10px;
+		background:rgba(0,0,0,0.3);
+		}
+	.tijiao>a{
+		float:left;
+		height:94px;
+		line-height:94px;
+		display:block;
+		font-size: 30px;
+		font-family: "MFYueHei_Noncommercial";
+		color: white;
+		text-align:center;
+		letter-spacing:5px;
+		}
+	.quxiao{
+		width:287px;
+		}
+	.denglu{
+		width:286px;
+		border-left:1px solid;
+		border-left-color: rbga(141,229,239,0.5);
+		}
+	.forgit{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		margin-top:43px;
+		}
+	.forgit ul{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		}
+	.forgit ul li{
+		float:left;
+		text-align:left;
+		width:50%;
+		height:25px;
+		line-height:25px;
+		}
+	.forgit ul li a{
+		font-size: 28px;
+		font-family: "MFYueHei_Noncommercial";
+		color: white;
+		letter-spacing:2px;
+		}
+	.footer{
+		width:100%;
+		height:200px;
+		overflow:hidden;
+		bottom:0;
+		position:absolute;
+		}
+	.footer-header{
+		width:100%;
+		height:64px;
+		}
+	.three{
+		width:92.8125%;
+		margin:5px auto 0px auto;
+		}
+	.three ul{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		display: box;
+	  	display: -webkit-box;
+		}
+	.three ul li{
+		-webkit-box-flex: 1;
+		box-flex: 1;
+		height:95px;
+		}
+	.three ul li a{
+		display:block;
+		text-align:center;
+		}
+	.three ul li a p{
+		font-size: 22.072px;
+		font-family: "MFYueHei_Noncommercial";
+		color: #fff;
+		margin-top:20px;
+		letter-spacing:2px;
+		}
+	.three ul li a img{
+		margin-top:10px;
+		}

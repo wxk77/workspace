@@ -1,0 +1,146 @@
+/* CSS Document */
+
+	html,body{
+	  max-width: 640px;
+	  margin: 0 auto;	
+	  background-color: #eeeeee;
+	  padding-bottom: 40px;
+	  }
+  	section{
+	  padding: 0 20px;
+	  background-color: #eeeeee;
+	  overflow:hidden;
+	  }
+	header{
+		width:100%;
+		height:339px;
+		overflow:hidden;
+		background:url(../images/Money-subsidy/quan.png) no-repeat;
+		background-size:100% 100%;
+		margin-top:25px;
+		}
+	.money{
+		width:510px;
+		margin:0 auto;
+		height:112px;
+		line-height:112px;
+		}
+	.money>img{
+		vertical-align:middle;
+		}
+	.money>span{
+		vertical-align:middle;
+		font-size: 70px;
+		font-family: "SimHei";
+		color:white;
+		padding-left:30px;
+		}
+	.money>span label{
+		vertical-align:middle;
+		font-size: 24px;
+		font-family: "SimHei";
+		color:white;
+		padding-left:13px;
+		}
+	.explain{
+		width:510px;
+		margin:0 auto;
+		overflow:hidden;
+		height:auto;
+		}
+	.explain>li{
+		height:38px;
+		width:100%;
+		line-height:38px;
+		}
+	.explain>li span{
+		font-size: 23.951px;
+		font-family: "SimHei";
+		color: #fddbdb;
+		}
+	.ownership{
+		width:558px;
+		margin:25px auto;
+		text-align:right;
+		height:auto;
+		}
+	.ownership>span{
+		font-size: 18px;
+		font-family: "Microsoft YaHei";
+		color:white;
+		}
+	.swiper-container{
+		width:594px;
+		height:343px;
+		margin-top:29px !important;
+		overflow:hidden;
+		border:1px solid #dddddd;
+		}
+	.swiper-slide>img{
+		width:100%;
+		height:100%;
+		}
+	.relation{
+		width:100%;
+		height:101px;
+		border-top:1px solid #dddddd;
+		border-bottom:1px solid #dddddd;
+		background:#fff;
+		margin-top:32px;
+		display: table;
+		}
+	.relation-detail{
+		height:101px;
+		display: table-cell;
+		vertical-align: middle;
+		}
+	.relation-detail>span{
+		font-size: 30px;
+		font-family: "SimHei";
+		color: #666666;
+		padding-left: 20px;
+		line-height: 34px;
+		display: inline-block;
+    	vertical-align: top;
+		}
+	.tel{
+		width:36px;
+		height:35px;
+		background:url(../images/Money-subsidy/icon.png) no-repeat;
+		background-position:-21px -22px;
+		display:inline-block;
+		margin-left:33px;
+		}
+	.mail{
+		width:36px;
+		height:37px;
+		background:url(../images/Money-subsidy/icon.png) no-repeat;
+		background-position:-119px -20px;
+		display:inline-block;
+		vertical-align:text-bottom;
+		margin-left:33px;
+		}
+	.go{
+		display:inline-block;
+		float: right;
+		margin-right: 27px;
+		height: 30px;
+		padding-top:5px;
+		}
+	footer{
+		width:100%;
+		height:97px;
+		border-top:1px solid #dddddd;
+		background:#fc4c4c;
+		margin-top:37px;
+		}
+	footer>a{
+		display:block;
+		width:100%;
+		line-height:97px;
+		height:97px;
+		font-size: 30px;
+		font-family: "SimHei";
+		color: #fff;
+		text-align:center;
+	}

@@ -1,0 +1,25 @@
+body{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+section{
+	width: inherit;
+	height: inherit;
+	background-color: #ffcd03;
+	position: relative;
+}
+section img{
+	padding-top: 1.75rem;
+	width: 16rem;
+	height:16rem;
+}
+section p{
+	width: inherit;
+	padding: 0 5%;
+	box-sizing: border-box;
+	font-size: 0.7rem;
+	color: #fff;
+	position: absolute;
+	bottom: 2.25rem;
+}
